@@ -1,4 +1,5 @@
 <?php default_header(); ?>
-<p>Stuur een e-mailtje naar voorzitter [at] karpenoktem.nl en dan is het zo
-geregeld!</p>
+<p>Kom eens een keer langs bij een van onze 
+<a href="<?php echo curi('agenda'); ?>">activiteiten</a> of stuur een e-mailtje
+naar voorzitter [at] karpenoktem.nl en dan is het zo geregeld!</p>
 <?php default_footer(); ?>
