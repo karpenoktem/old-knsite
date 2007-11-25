@@ -1,0 +1,117 @@
+a, body, #menu a {
+	color: #eee;	
+}
+
+body {
+	background-color: black;
+	font-family: "trebuchet ms", verdana;
+	padding-left: 50%;
+}
+
+#wrapper {
+	width: 800px;
+	margin-left: -400px;
+}
+
+#logo {
+	height: 150px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+}
+
+#body {
+	float: right;
+	padding-bottom: 10px;
+	width: 600px;
+	padding-top: 8px;
+}
+
+#menu {
+	padding-right: 630px;
+	padding-top: 10px;
+	margin-top: 0;
+}
+
+#menu li {
+	padding-top: 4px;
+	font-weight: bold;
+}
+
+#menu ul li {
+	padding-top: 0;
+	font-weight: normal;
+}
+
+#menu ul, #menu {
+	list-style: none;
+	padding-left: 10px;
+}
+
+#agenda a,
+#menu a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f00;
+}
+
+#agenda a:hover,
+#menu a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+}
+
+#footer, #main {
+	border-top: 1px solid #800100;
+}
+
+#main {
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	min-height: 533px;
+}
+
+#agenda {
+	float: right;
+	width: 160px;
+	margin-top: 0;
+	list-style: none;
+}
+
+#agenda, #agenda li {
+	padding-left: 1px;
+	margin-left: 1px;
+	padding-bottom: 10px;
+}
+
+#agenda .title {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.3em;
+}
+
+#fullagenda {
+	padding-left: 0;
+	margin-left: 0;
+	list-style: none;
+}
+
+#fullagenda .date {
+	font-style: italic;
+}
+
+#fullagenda .name {
+	font-weight: bold;
+}
+
+#fullagenda li {
+	margin-bottom: 10px;
+}
