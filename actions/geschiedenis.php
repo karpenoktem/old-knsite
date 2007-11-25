@@ -1,5 +1,6 @@
 <?php default_header(); ?>
 <p><em>Door Giedo Janssen, Oprichter van Karpe Noktem</em></p>
+<img src="<?php echo curi('img/giedo.jpg'); ?>" style="float: left; padding-right: 4px" title="Giedo Janssen" />
 <p>Karpe Noktem is één van de jongste gezelligheidsvereniging van Nijmegen. Het
 idee voor de vereniging ontstond in de introductie van 2003. In de aanloop naar
 het daadwerkelijk opstarten van een nieuwe vereniging organiseerde Karpe Noktem
@@ -24,6 +25,7 @@ gedenkwaardig weekend waarin de workshops de gezelligheid afwisselen.</p>
 themafeest "Kapen en Kielhalen", de Sinterklaas-Bingo-avond, en de eerste
 Bandjesavond (met optredens van The Analog Project, Pharmacon en Ska Zuster Nee
 Zuster).</p>
+<img src="<?php echo curi('img/logo oud.jpg'); ?>" style="float: right" title="Oprichtingsposter" />
 <p>Karpe Noktem sluit het jaar 2004 vol goed gemoed af met de betrekking van een
 bestuurskamer in het Gymnasion. Vanuit deze plek zal de Karpe Noktem-motor
 draaiende worden gehouden, ten einde ook in 2005, en in de decennia erna,
