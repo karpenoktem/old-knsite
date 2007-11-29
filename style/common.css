@@ -115,3 +115,13 @@ h1 {
 #fullagenda li {
 	margin-bottom: 10px;
 }
+
+img.left {
+	float: left;
+	margin-right: 10px;
+}
+
+img.right {
+	float: right;
+	margin-left: 10px;
+}
