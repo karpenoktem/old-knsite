@@ -1,4 +1,5 @@
 <?php default_header(); ?>
+<img src="<?php echo curi('img/posters.jpg'); ?>" class="right" />
 <p>Karpe Noktem staat bekend om zijn live-acts, zoals Karpe Rockt'em en de 
 bandjesavonden. Daarnaast programmeren we voor leden tal van andere
 activiteiten. Een kleine greep uit voorgaande hoogtepunten: Karpe Rockt'em, De
