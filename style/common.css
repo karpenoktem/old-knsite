@@ -103,6 +103,10 @@ h1 {
 	list-style: none;
 }
 
+#fullagenda .desc {
+	padding-left: 10px;
+}
+
 #fullagenda .date {
 	font-style: italic;
 }
