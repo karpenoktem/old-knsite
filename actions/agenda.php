@@ -1,32 +1,6 @@
 <?php default_header(); ?>
 
 <ul id="fullagenda">
-	<li><div class="date">Dinsdag 27 november</div>
-	<div class="name">Karpe Noktem goes Pauw&amp;Witteman</div>
-	<div class="desc">De DeLiCo organiseert een tripje naar Amsterdam waar we naar het
-	actualiteitenprogramma Pauw&amp;Witteman gaan. Dit wordt een zeer amusante
-	avond dus geef je snel op! Let op de plaatsen zijn wel beperkt (ongeveer
-	10 man), dus wie het eerst komt wie het eerst maalt. Omdat het programma
-	pas om 23:00 begint zullen we moeten overnachten bij een lief zusje in
-	Amsterdam. Geef je op bij Bram.</div></li>
-	
-	<li><div class="date">Dinsdag 27 november</div>
-	<div class="name">Karpe Noktem goes Pauw&amp;Witteman</div>
-	<div class="desc">De DeLiCo organiseert een tripje naar Amsterdam waar we naar het
-	actualiteitenprogramma Pauw&amp;Witteman gaan. Dit wordt een zeer amusante
-	avond dus geef je snel op! Let op de plaatsen zijn wel beperkt (ongeveer
-	10 man), dus wie het eerst komt wie het eerst maalt. Omdat het programma
-	pas om 23:00 begint zullen we moeten overnachten bij een lief zusje in
-	Amsterdam. Geef je op bij Bram.</div></li>
-	
-	<li><div class="date">Woensdag 28 november</div>
-	<div class="name">Debatavond in Cafe 't Haantje</div>
-	<div class="desc">Samen met de mensen van debatvereniging Trivium
-	onganiseren we weer een spannend debat. De hele avond zullen er
-	verschillende stellingen zijn waarover we gaan debatteren in een
-	lagerhuis-format. Uiteraard zal dit vergezeld gaan van een (of veel meer)
-	biertje(s) om de tongen wat losser te maken. HEAR! HEAR!</div></li>
-	
 	<li><div class="date">Woensdag 5 december</div>
 	<div class="name">Pakjesavond bij Bram thuis (Prof. Bromstraat)</div>
 	<div class="desc">Pakjesavond... maar voor hen die geen sinterklasale

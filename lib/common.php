@@ -1,5 +1,7 @@
 <?php
 
+$page = array('bg' => 'bg.png');
+
 function auri($action, $qs='') {
 	global $cfg;
 	return $cfg['auri'] . $action . '?' . $qs; 
@@ -10,7 +12,7 @@ function curi($content) {
 	return $cfg['curi'] . $content;
 }
 
-function default_header() { ?>
+function default_header() { global $page; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -20,6 +22,9 @@ function default_header() { ?>
 			  rel="stylesheet" type="text/css" />
 		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
 		<title>ASV Karpe Noktem</title>
+		<style type="text/css">
+			#main { background-image: url(../img/<?php echo $page['bg']; ?>); }
+		</style>
 	</head>
 	<body>
 		<div id="wrapper">

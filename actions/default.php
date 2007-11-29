@@ -1,11 +1,6 @@
-<?php default_header(); ?>
+<?php $page['bg'] = 'bg-home.png';
+	  default_header(); ?>
 			<ul id="agenda">
-				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
-						Pauw &amp; Witteman</a></div>
-					<div class="desc">27 Nov</div></li>
-				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
-						Debatavond cafe 't Haantje</a></div>
-				    <div class="desc">28 Nov</div>
 				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
 						Pakjesavond bij Bram</a></div>
 				    <div class="desc">5 Dec</div>
