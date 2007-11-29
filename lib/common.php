@@ -18,6 +18,7 @@ function default_header() { ?>
 	<head>
 		<link href="<?php echo curi('style/common.css'); ?>"
 			  rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
 		<title>ASV Karpe Noktem</title>
 	</head>
 	<body>
@@ -77,6 +78,15 @@ function default_footer() { ?>
 		<div id="footer">&copy;2007 &mdash; Karpe Noktem</div>
 	</body>
 </html> <?php
+}
+
+function email($email) {
+	$bits = explode('@', $email);
+	$u = $bits[0];
+	$bits = explode('.', $bits[1]);
+	$t = $bits[count($bits) - 1];
+	$d = implode('.', array_slice($bits, 0, count($bits) - 1));
+	return "<script type='text/javascript'>email('$t', '$d', '$u');</script>";
 }
 
 

@@ -12,11 +12,12 @@ die als oprichtster van de LoCo verse en originele ideeën de vrije ruimte
 geeft.</p>
 <p>Heeft u een vraag? Kunnen wij u helpen? De voorzitter houdt iedere dag
 spreekuur - alleen op afspraak, tenminste 1 dag van tevoren gemeld via
-voorzitter[at]karpenoktem.nl - tijdens de pauze.</p>
+<?php echo email('voorzitter@karpenoktem.nl'); ?> - tijdens de pauze.</p>
 <p>Voor verzoeken, aanbiedingen en andere dingen van algemene zaken kunt u
-zich wenden tot Secretaris Jorg Kennis: secretaris[at]karpenoktem.nl</p>
+zich wenden tot Secretaris Jorg Kennis: 
+<?php echo email('secretaris@karpenoktem.nl'); ?></p>
 <p>Voor alle financiële zaken, mag u zich wenden tot de Penningmeester.
-Contact: penningmeester[at]karpenokem.nl</p>
+Contact: <?php echo email('penningmeester@karpenoktem.nl'); ?></p>
 <p>Kerstkaarten, uitnodigingen, rekeningen en alle andere zaken kunt
 u sturen naar:</p>
 <blockquote>ASV Karpe Noktem<br/>
