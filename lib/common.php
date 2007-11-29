@@ -23,7 +23,7 @@ function default_header() { global $page; ?>
 		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
 		<title>ASV Karpe Noktem</title>
 		<style type="text/css">
-			#main { background-image: url(img/<?php echo $page['bg']; ?>); }
+			#main { background-image: url(<?php echo curi("img/{$page['bg']}"); ?>); }
 		</style>
 	</head>
 	<body>
