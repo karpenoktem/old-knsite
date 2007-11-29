@@ -1,7 +1,7 @@
 <?php default_header(); ?>
-<h1>Het vierde bestuur van ASV Karpe Noktem</h1>
 <img src="<?php echo curi('img/bestuur.jpg'); ?>" />
-<p>Het vierde bestuur van Karpe Noktem zit vol met echte coinnaisseurs van het
+<p><strong>Het vierde bestuur van Karpe Noktem</strong> zit vol met echte 
+coinnaisseurs van het
 vak. Bram Balk (Voorzitter) heeft zijn sporen verdiend als hoofdredacteur van
 het Algemeen Nijmeegs Studentenblad. Daan Fifis du Pont (Vice-voorzitter) kent
 het klappen van de zweep als ex-bestuurslid van debatvereniging Trivium. Jorg
