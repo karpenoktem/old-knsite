@@ -59,11 +59,12 @@ function default_footer() { ?>
 					<li><a href="http://www.flickr.com/photos/12264801@N04/">Pluk het weekend</a></li>
 				</ul>
 				<li>Forum</li>
-				<li>Merchandise</li>
+				<li><a href="<?php echo auri('merchandise') ?>"
+						>Merchandise</a></li>
 				<ul>
-					<li><a href="<?php echo auri('tshirts') ?>"
+					<li><a href="<?php echo auri('merchandise') ?>"
 						>Tshirts</a></li>
-					<li><a href="<?php echo auri('dvds') ?>"
+					<li><a href="<?php echo auri('merchandise') ?>"
 						>DVD's</a></li>
 				</ul>
 				<li>Downloaden</li>
