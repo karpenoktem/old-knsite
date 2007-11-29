@@ -86,7 +86,8 @@ function email($email) {
 	$bits = explode('.', $bits[1]);
 	$t = $bits[count($bits) - 1];
 	$d = implode('.', array_slice($bits, 0, count($bits) - 1));
-	return "<script type='text/javascript'>email('$t', '$d', '$u');</script>";
+	return "<script type='text/javascript'>email('$t', '$d', '$u');</script>".
+		   "<noscript>[X@Y, waar voor Y=$d.$t en X=$u]</noscript>";
 }
 
 
