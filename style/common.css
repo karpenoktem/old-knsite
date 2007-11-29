@@ -127,4 +127,5 @@ img.left {
 img.right {
 	float: right;
 	margin-left: 10px;
+	margin-right: 5px;
 }
