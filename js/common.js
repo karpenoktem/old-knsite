@@ -1,3 +1,4 @@
 function email(t, d, u) {
-	document.write(u + '@' + d + '.' + t);
+	var email = u + '@' + d + '.' + t;
+	document.write('<a href="mailto:' + email + '">' + email + '</a>');
 }
