@@ -22,8 +22,10 @@ body {
 #body {
 	float: right;
 	width: 600px;
-	margin: 10px 0 0 0;
-	padding: 2px 14px 10px 0;
+	margin: 0 0 0 0;
+	padding: 12px 14px 10px 0;
+	height: 511px;
+	overflow: auto;
 }
 
 #menu {
