@@ -1,5 +1,5 @@
 <?php default_header(); ?>
-
+<h2>Agenda</h2>
 <ul id="fullagenda">
 	<li><div class="date">Woensdag 5 december</div>
 	<div class="name">Pakjesavond bij Bram thuis (Prof. Bromstraat)</div>
