@@ -21,16 +21,21 @@ body {
 
 #body {
 	float: right;
-	padding-bottom: 10px;
 	width: 600px;
-	padding-top: 8px;
+	margin: 10px 0 0 0;
+	padding: 2px 14px 10px 0;
 }
 
 #menu {
-	padding-right: 630px;
+	padding: 15px 630px 0 0;
+	margin: 0 0 0 10px;
+}
+
+#agenda {
 	padding-top: 10px;
 	margin-top: 0;
 }
+
 
 #menu li {
 	padding-top: 4px;
@@ -79,13 +84,13 @@ a:hover {
 #agenda {
 	float: right;
 	width: 160px;
-	margin-top: 0;
 	list-style: none;
 }
 
-#agenda, #agenda li {
+#agenda li {
 	padding-left: 1px;
 	margin-left: 1px;
+	padding-top: 0;
 	padding-bottom: 10px;
 }
 
