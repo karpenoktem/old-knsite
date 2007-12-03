@@ -69,8 +69,6 @@ function default_footer() { ?>
 				<ul>
 					<li><a href="<?php echo auri('merchandise') ?>"
 						>Tshirts</a></li>
-					<li><a href="<?php echo auri('merchandise') ?>"
-						>DVD's</a></li>
 				</ul>
 				<li>Downloaden</li>
 				<ul>
