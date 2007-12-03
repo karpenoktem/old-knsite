@@ -82,6 +82,7 @@ function default_footer() { ?>
 			<ul>
 		</div>
 		<div id="footer">&copy;2007 &mdash; Karpe Noktem</div>
+		<!-- Source code? Take a look at the .git dir -->
 	</body>
 </html> <?php
 }
