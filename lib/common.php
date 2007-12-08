@@ -1,7 +1,8 @@
 <?php
 
 $page = array('bg' => 'bg.png',
-			  'stylesheets' => array('common'));
+			  'stylesheets' => array('common'),
+			  'title' => '');
 
 function auri($action, $qs='') {
 	global $cfg;
@@ -19,6 +20,11 @@ function emit_stylesheets() {
 		<link href="<?php echo curi("style/{$stylesheet}.css"); ?>"
 			  rel="stylesheet" type="text/css" />
 	<?php }
+}
+
+function set_title($title) {
+	global $page;
+	$page['title'] = $title;
 }
 
 function use_background($bg) {
@@ -46,6 +52,9 @@ function default_header() { global $page; ?>
 		<!--[if lte IE 7]>
 		<link rel="stylesheet" type="text/css" href="<?php echo curi('style/iehacks.css'); ?>" />
 		<![endif]-->
+		<title>ASV Karpe Noktem <?php
+			if(!empty($page['title'])) { ?> - <?php echo $page['title']; } 
+		?></title>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -53,6 +62,7 @@ function default_header() { global $page; ?>
 		
 		<div id="main">	
 			<div id="body">
+				<?php if(!empty($page['title'])) { ?><h2><?php echo $page['title']; ?></h2><?php } ?>
 			<?php
 }
 
