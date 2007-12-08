@@ -1,21 +1,23 @@
 #fullagenda {
-       padding-left: 0;
-       margin-left: 0;
-       list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	list-style: none;
 }
 
 #fullagenda .desc {
-       padding-left: 10px;
 }
 
 #fullagenda .date {
-       font-style: italic;
+	font-style: italic;
+	float: right;
 }
 
 #fullagenda .name {
-       font-weight: bold;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+	color: white;
 }
 
 #fullagenda li {
-       margin-bottom: 10px;
+	margin-bottom: 1em;
 }
