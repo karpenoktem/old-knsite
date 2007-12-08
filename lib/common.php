@@ -45,7 +45,6 @@ function default_header() { global $page; ?>
 	<head>
 		<?php emit_stylesheets() ?>
 		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
-		<title>ASV Karpe Noktem</title>
 		<style type="text/css">
 			#main { background-image: url(<?php echo curi("img/{$page['bg']}"); ?>); }
 		</style>
@@ -53,7 +52,7 @@ function default_header() { global $page; ?>
 		<link rel="stylesheet" type="text/css" href="<?php echo curi('style/iehacks.css'); ?>" />
 		<![endif]-->
 		<title>ASV Karpe Noktem <?php
-			if(!empty($page['title'])) { ?> - <?php echo $page['title']; } 
+			if(!empty($page['title'])) { ?>- <?php echo $page['title']; } 
 		?></title>
 	</head>
 	<body>
