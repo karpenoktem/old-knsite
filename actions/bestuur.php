@@ -1,6 +1,6 @@
 <?php default_header(); ?>
 <h2>Bestuur</h2>
-<img src="<?php echo curi('img/bestuur.jpg'); ?>" />
+<img class="big" src="<?php echo curi('img/bestuur.jpg'); ?>" />
 <p><strong>Het vierde bestuur van Karpe Noktem</strong> zit vol met echte 
 coinnaisseurs van het
 vak. Bram Balk (Voorzitter) heeft zijn sporen verdiend als hoofdredacteur van

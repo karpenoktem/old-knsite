@@ -43,6 +43,9 @@ function default_header() { global $page; ?>
 		<style type="text/css">
 			#main { background-image: url(<?php echo curi("img/{$page['bg']}"); ?>); }
 		</style>
+		<!--[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" href="<?php echo curi('style/iehacks.css'); ?>" />
+		<![endif]-->
 	</head>
 	<body>
 		<div id="wrapper">
