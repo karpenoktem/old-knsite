@@ -1,6 +1,7 @@
 <?php
 
-$page = array('bg' => 'bg.png');
+$page = array('bg' => 'bg.png',
+			  'stylesheets' => array('common'));
 
 function auri($action, $qs='') {
 	global $cfg;
@@ -12,14 +13,31 @@ function curi($content) {
 	return $cfg['curi'] . $content;
 }
 
+function emit_stylesheets() {
+	global $page;
+	foreach($page['stylesheets'] as $stylesheet) { ?>
+		<link href="<?php echo curi("style/{$stylesheet}.css"); ?>"
+			  rel="stylesheet" type="text/css" />
+	<?php }
+}
+
+function use_background($bg) {
+	global $page;
+	$page['bg'] = $bg;
+}
+
+function include_stylesheet($stylesheet) {
+	global $page;
+	$page['stylesheets'][]= $stylesheet;
+}
+
 function default_header() { global $page; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <html>
 	<head>
-		<link href="<?php echo curi('style/common.css'); ?>"
-			  rel="stylesheet" type="text/css" />
+		<?php emit_stylesheets() ?>
 		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
 		<title>ASV Karpe Noktem</title>
 		<style type="text/css">
