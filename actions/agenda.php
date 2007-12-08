@@ -1,12 +1,6 @@
 <?php default_header(); ?>
 <h2>Agenda</h2>
 <ul id="fullagenda">
-	<li><div class="date">Woensdag 5 december</div>
-	<div class="name">Pakjesavond bij Bram thuis (Prof. Bromstraat)</div>
-	<div class="desc">Pakjesavond... maar voor hen die geen sinterklasale
-	verplichtingen hebben is er een gezellige filmavond bij huize
-	Bram/Alette/Jorne. Films volgen nog, suggesties zijn altijd welkom.</div></li>
-	
 	<li><div class="date">Woensdag 12 december</div>
 	<div class="name">Sinterklaasborrel in Cafe dollars - 20:30</div>
 	<div class="desc">Geheel volgens Karpe Noktem-traditie: Vanavond is er weer
