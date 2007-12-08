@@ -1,7 +1,8 @@
-<?php default_header(); ?>
+<?php include_stylesheet('an');
+	  default_header(); ?>
 	<h2>Akta Nokturna</h2>
 	<p>Hier kunt u de oudere uitgaven van de Akta Nokturna downloaden</p>
-	<ul>
+	<ul id="an">
 		<li>Jaargang 4</li>
 		<ul>
 			<li><a href="<?php echo curi('archief/akta10.pdf'); ?>">Akta 10</a></li>

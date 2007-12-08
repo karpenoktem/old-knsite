@@ -1,0 +1,17 @@
+#an,
+#an ul {
+	list-style: none;
+}
+
+#an ul {
+	margin: 0 0 0.5em 1em;
+	padding: 0;
+}
+
+#an li {
+	font-weight: bold;
+}
+
+#an ul li {
+	font-weight: normal;
+}
