@@ -50,6 +50,7 @@ body {
 
 #menu a {
 	text-decoration: none;
+	display: block;
 }
 
 a:hover {
