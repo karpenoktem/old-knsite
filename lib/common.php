@@ -114,7 +114,12 @@ function default_footer() { ?>
 			
 			<?php emit_menu(); ?>
 		</div>
-		<div id="footer">&copy;2007 &mdash; Karpe Noktem</div>
+		<div id="footer"><!--[if IE]>
+		Internet Explorer is 
+		<a href="http://www.google.com/search?q=ie+sucks">smerige rotzooi</a>. Gebruik een
+		fatsoenlijke browser zoals 
+		<a href="http://www.mozilla.com/en-US/firefox/">Firefox</a>.<br/>
+		<![endif]-->&copy;2007 &mdash; Karpe Noktem</div>
 		<!-- Source code? Take a look at the .git dir -->
 	</body>
 </html> <?php
