@@ -53,9 +53,7 @@ function default_header() { global $page; ?>
 			<?php
 }
 
-function default_footer() { ?>
-				</div>
-			
+function emit_menu() { ?>
 			<ul id="menu">
 				<li><a href="<?php echo auri('default'); ?>">Beginpagina</a></li>
 				<li><a href="<?php echo auri('watis') ?>"
@@ -96,6 +94,13 @@ function default_footer() { ?>
 				<li><a href="<?php echo auri('links') ?>"
 					>Links</a></li>
 			<ul>
+			<?php
+}
+
+function default_footer() { ?>
+			</div>
+			
+			<?php emit_menu(); ?>
 		</div>
 		<div id="footer">&copy;2007 &mdash; Karpe Noktem</div>
 		<!-- Source code? Take a look at the .git dir -->
