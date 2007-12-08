@@ -1,4 +1,5 @@
-<?php default_header(); ?>
+<?php include_stylesheet('agenda');
+	  default_header(); ?>
 <h2>Agenda</h2>
 <ul id="fullagenda">
 	<li><div class="date">Woensdag 12 december</div>

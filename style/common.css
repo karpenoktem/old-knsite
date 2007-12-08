@@ -79,28 +79,6 @@ h1 {
 	font-size: 1.3em;
 }
 
-#fullagenda {
-	padding-left: 0;
-	margin-left: 0;
-	list-style: none;
-}
-
-#fullagenda .desc {
-	padding-left: 10px;
-}
-
-#fullagenda .date {
-	font-style: italic;
-}
-
-#fullagenda .name {
-	font-weight: bold;
-}
-
-#fullagenda li {
-	margin-bottom: 10px;
-}
-
 img.left {
 	float: left;
 	margin: 0.5em 0.5em 0.5em 0;
