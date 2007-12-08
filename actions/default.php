@@ -1,4 +1,5 @@
-<?php $page['bg'] = 'bg-home.png';
+<?php use_background('bg-home.png');
+	  include_stylesheet('home');
 	  default_header(); ?>
 			<ul id="agenda">
 				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
