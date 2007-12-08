@@ -1,6 +1,6 @@
-<?php include_stylesheet('an');
+<?php set_title('Akta Nokturna');
+	  include_stylesheet('an');
 	  default_header(); ?>
-	<h2>Akta Nokturna</h2>
 	<p>Hier kunt u de oudere uitgaven van de Akta Nokturna downloaden</p>
 	<ul id="an">
 		<li>Jaargang 4</li>

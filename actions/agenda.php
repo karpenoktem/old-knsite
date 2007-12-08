@@ -1,6 +1,6 @@
-<?php include_stylesheet('agenda');
+<?php set_title('Agenda');
+	  include_stylesheet('agenda');
 	  default_header(); ?>
-<h2>Agenda</h2>
 <ul id="fullagenda">
 	<li><div class="date">Woensdag 12 december</div>
 	<div class="name">Sinterklaasborrel in Cafe dollars - 20:30</div>

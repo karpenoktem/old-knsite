@@ -1,5 +1,5 @@
-<?php default_header(); ?>
-<h2>Wat is Karpe Noktem?</h2>
+<?php set_title('Wat is Karpe Noktem?');
+	  default_header(); ?>
 <img src="<?php echo curi('img/dansend.jpg'); ?>" class="right" />
 <p>Karpe Noktem is een dynamisch alternatief voor iedereen die zich niet tot 
 traditionele verenigingen aangetrokken voelt. Wij brengen HBO- en WO-studenten

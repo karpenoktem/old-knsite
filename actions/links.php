@@ -1,4 +1,5 @@
-<?php default_header(); ?>
+<?php set_title('Links');
+      default_header(); ?>
 	<p>Karpe Noktem op</p>
 	<ul>
 		<li><a href="http://karpenoktem.hyves.nl/">Hyves</a>,</li>
