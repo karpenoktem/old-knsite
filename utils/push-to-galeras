@@ -1,0 +1,2 @@
+#!/bin/bash
+git push ssh://karpenok@galeras.uci.kun.nl/www/karpenok/webdocs --receive-pack=/www/karpenok/bin/git-receive-pack --all
