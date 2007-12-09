@@ -1,6 +1,6 @@
 <?php
 
-require 'config.php';
+require 'config.default.php';
 require 'lib/common.php';
 
 $in = array_merge($_GET, $_POST);
