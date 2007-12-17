@@ -109,7 +109,7 @@ function emit_menu() { ?>
 			<?php
 }
 
-function default_footer() { ?>
+function default_footer() { global $cfg; ?>
 			</div>
 			
 			<?php emit_menu(); ?>
@@ -119,7 +119,12 @@ function default_footer() { ?>
 		<a href="http://www.google.com/search?q=ie+sucks">smerige rotzooi</a>. Gebruik een
 		fatsoenlijke browser zoals 
 		<a href="http://www.mozilla.com/en-US/firefox/">Firefox</a>.<br/>
-		<![endif]-->&copy;2007 &mdash; Karpe Noktem</div>
+		<![endif]-->&copy;2007 &mdash; Karpe Noktem<?php
+		if(isset($cfg['release'])) {
+			echo "; <a href='".auri('release')."'>".
+			     date('d M' ,$cfg['release']['date'])."</a>";
+		}
+		?></div>
 		<!-- Source code? Take a look at the .git dir -->
 	</body>
 </html> <?php
