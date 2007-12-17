@@ -1,2 +1,6 @@
 #!/bin/bash
-git push ssh://karpenok@galeras.uci.kun.nl/www/karpenok/webdocs --receive-pack=/www/karpenok/bin/git-receive-pack --all
+git push --all --receive-pack=/www/karpenok/bin/git-receive-pack ssh://karpenok@galeras.uci.kun.nl/www/karpenok/webdocs 
+
+ssh karpenok@galeras.uci.kun.nl 'cd webdocs; ../bin/git --exec-path=../bin checkout -f'
+
+ssh karpenok@galeras.uci.kun.nl 'source /etc/profile; cd webdocs; utils/install config.release.php'
