@@ -3,7 +3,7 @@
 import os
 import sys
 
-cmd_H_cd_cn = 'git --no-pager log --pretty="format:%H;%cd;%cn" -n1'
+cmd_H_ct_cn = 'git --no-pager log --pretty="format:%H;%ct;%cn" -n1'
 cmd_tag = 'git --no-pager describe'
 cmd_branch = 'git --no-pager branch | grep \*'
 
@@ -13,7 +13,7 @@ def exec_ret(command):
 	f.close()
 	return r
 
-h, cd, cn =  exec_ret(cmd_H_cd_cn).split(';')
+h, ct, cn =  exec_ret(cmd_H_ct_cn).split(';')
 tag = exec_ret(cmd_tag)[:-1]
 branch = exec_ret(cmd_branch)[2:-1]
 
@@ -28,7 +28,7 @@ else:
 f.write("<?\n"+
 	"if(!isset($cfg['release'])) $cfg['release'] = array();\n"+
 	"$cfg['release']['hash'] = '%s';\n" % h +
-	"$cfg['release']['date'] = '%s';\n" % cd +
+	"$cfg['release']['date'] = '%s';\n" % ct +
 	"$cfg['release']['by'] = '%s';\n" % cn +
 	"$cfg['release']['tag'] = '%s';\n" % tag +
 	"$cfg['release']['branch'] = '%s';\n" % branch +
