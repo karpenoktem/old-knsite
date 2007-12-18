@@ -3,13 +3,6 @@
 	  default_header(); ?>
 			<ul id="agenda">
 				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
-						Sinterklaasborrel</a></div>
-				    <div class="desc">12 Dec, Cafe Dollars</div>
-				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
-						CoCo: Stropdasdrinken</a></div>
-				    <div class="desc">13 Dec</div>
-
-				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
 						Karpe Rockt'em</a></div>
 				    <div class="desc">19 Dec, Cafe Merleyn</div>
 				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
