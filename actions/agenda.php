@@ -2,15 +2,6 @@
 	  include_stylesheet('agenda');
 	  default_header(); ?>
 <ul id="fullagenda">
-	<li><div class="date">Woensdag 19 december</div>
-	<div class="name">Karpe Rock'tem! in Muziekcafe Merleyn</div>
-	<div class="desc">Het studentenleven trilt op zijn grondvesten,
-	Totaalfeest Karpe Rockt'em is weer in de stad! Cancel alle afspraken
-	voor morgen maar... want we pakken uit met het live-concert van
-	<em>Mark &amp; The Spies</em> en gaan vervolgens door met de 
-	dampende set van DJ's <em>Eli</em> &amp; <em>Jesper</em>.<br/>
-	Vanaf 22:00. 3 euro entroo. Leden gratis.</div></li>
-	
 	<li><div class="date">Woensdag 2 januari</div>
 	<div class="name">Nieuwjaarsborrel in Cafe Dollars</div>
 	<div class="desc">Bijgekomen van alle nieuwsjaarsfeesten en nog zin om
