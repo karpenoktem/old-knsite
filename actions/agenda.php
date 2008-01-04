@@ -2,15 +2,6 @@
 	  include_stylesheet('agenda');
 	  default_header(); ?>
 <ul id="fullagenda">
-	<li><div class="date">Woensdag 2 januari</div>
-	<div class="name">Nieuwjaarsborrel in Cafe Dollars</div>
-	<div class="desc">Bijgekomen van alle nieuwsjaarsfeesten en nog zin om
-	even na te loungen? Wens alle leden een vrolijk nieuwjaar in stijl op
-	de borrel, compleet met oliebollen, goedkope champagne en een
-	nieuwjaarsconference.<br/>
-	Vanaf 20:30. <em>Open activiteit</em>.
-	Bier euro 1.40. Fris 1.10.</div></li>
-
 	<li><div class="date">Woensdag 9 januari</div>
 	<div class="name">Extreme Playbackshow</div>
 	<div class="desc">Ze zijn er allemaal groot geworden: Micheal Jackson,
