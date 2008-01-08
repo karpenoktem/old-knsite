@@ -1,15 +1,11 @@
 <?php use_background('bg-home.png');
 	  include_stylesheet('home');
+	  require_once('config.agenda.php');
 	  default_header(); ?>
 			<ul id="agenda">
-				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
-						Extreme Playbackshow</a></div>
-				    <div class="desc">9 Jan</div>
-				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
-						Borrel</a></div>
-				    <div class="desc">16 Jan</div>
-				<li><div class="title"><a href="<?php echo auri('agenda'); ?>">
-						Winterweekend</a></div>
-				    <div class="desc">25 Jan</div>
+				<?php foreach($cfg['agenda'] as $item) { ?>
+				<li><div class="title"><a href="<?php echo auri('agenda'); ?>"><?php echo $item[0]; ?></a></div>
+				    <div class="desc"><?php echo $item[1]; ?></div>
+				<?php } ?>
 			</ul>
 <?php default_footer(); ?>
