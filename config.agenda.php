@@ -6,23 +6,6 @@ $cfg['agenda'] = array(
 	      "Datum op agenda pagina",
 	      "Titel op agenda pagina",
 	      "Tekst op agenda pagina"), */
-	array("Wodka in de bijstand",
-	      "9 Jan",
-	      "Woensdag 9 januari",
-	      "<del>Extreme playbackshow</del><ins>Wodkaborrel in de ".
-	      "bijstand</ins>",
-	      "<strong>Geen Extreme Playbackshow!</strong> Dit in verband ".
-	      "met het bedroevende aantal inschrijvingen. Het zou echter geen ".
-	      "geslaagd jaar zijn zonder een Extreme Playbackshow, dus zal ".
-	      "deze op een later tijdstip wel plaatsvinden. Opgeven kan ".
-	      "altijd, schiet een bestuurslid aan tijdens een ".
-	      "borrel/activiteit of reply op deze mail.<br/>".
-	      "Omdat je woensdag geen woensdag is zonder Karpe Noktem zullen ".
-	      "wij morgen naar cafe de Bijstand afreizen om aldaar te ".
-	      "genieten van een heerlijk glas Vodka. De feestvreugde begint ".
-	      "om 20:30 uur en voor de vroege vogels is er een gratis ".
-	      "consumptie.<br/>".
-	      "Cafe de Bijstand, vanaf 20:30."),
 	array("Quizborrel in Dollars",
 	      "16 Jan",
 	      "Woensdag 16 januari",
