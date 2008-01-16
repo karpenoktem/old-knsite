@@ -4,7 +4,7 @@
 	  default_header(); ?>
 			<ul id="agenda">
 				<?php foreach($cfg['agenda'] as $item) { ?>
-				<li><div class="title"><a href="<?php echo auri('agenda'); ?>"><?php echo $item[0]; ?></a></div>
+				<li><div class="title"><a href="<?php echo auri('agenda', '', $item['key']); ?>"><?php echo $item[0]; ?></a></div>
 				    <div class="desc"><?php echo $item[1]; ?></div>
 				<?php } ?>
 			</ul>

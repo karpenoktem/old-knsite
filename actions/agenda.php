@@ -4,7 +4,8 @@
 	  default_header(); ?>
 <ul id="fullagenda">
 	<?php foreach($cfg['agenda'] as $item) { ?>
-	<li><div class="date"><?php echo $item[2]; ?></div>
+	<li><a name="<?php echo $item['key']; ?>"></a>
+	<div class="date"><?php echo $item[2]; ?></div>
 	<div class="name"><?php echo $item[3]; ?></div>
 	<div class="desc"><?php echo $item[4]; ?></div></li>
 	<?php } ?>
