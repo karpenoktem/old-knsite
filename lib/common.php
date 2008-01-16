@@ -4,9 +4,9 @@ $page = array('bg' => 'bg.png',
 			  'stylesheets' => array('common'),
 			  'title' => '');
 
-function auri($action, $qs='') {
+function auri($action, $qs='', $an='') {
 	global $cfg;
-	return $cfg['auri'] . $action . '?' . $qs; 
+	return $cfg['auri'] . $action . '#' . $an . '?' . $qs; 
 }
 
 function curi($content) {
