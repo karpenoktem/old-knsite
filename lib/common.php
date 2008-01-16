@@ -6,7 +6,10 @@ $page = array('bg' => 'bg.png',
 
 function auri($action, $qs='', $an='') {
 	global $cfg;
-	return $cfg['auri'] . $action . '#' . $an . '?' . $qs; 
+	$r = $cfg['auri'] . $action;
+	if(!empty($qs)) $r .= '?' . $qs; 
+	if(!empty($an)) $r .= '#' . $an;
+	return $r;
 }
 
 function curi($content) {
