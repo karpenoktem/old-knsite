@@ -29,6 +29,19 @@ $cfg['agenda'] = array(
 	      "Bandjesavond in Piecken",
 	      "De line up volgt pas volgende week, maar be there or be ".
 	      "square."),
+	array("Winterweekend",
+	      "25 - 27 jan",
+	      "25 tot en met 27 januari",
+	      "Winterweekend",
+	      "Het eerst winterweekend.  Het beleooft een heel erg relaxt ".
+	      "weekend te worden, gluhwein included. Er zijn een klein ".
+	      "aantal afmeldingen, zie de leden mails."),
+	array("Lullo's marathon",
+	      "31 jan",
+	      "31 januari",
+	      "Lullo's marathon by Daan thuis",
+	      "Lul man! LULLO! Kom naar de lullo's marathon bij Daan thuis ".
+	      "(Sint Annastraat 21 A)."),
 	array("Tweede ALV",
 	      "13 Feb",
 	      "Woensdag 13 februari",
