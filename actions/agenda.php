@@ -1,6 +1,6 @@
 <?php set_title('Agenda');
 	  include_stylesheet('agenda');
-	  require_once('config.agenda.php');
+	  require_once('lib/agenda.php');
 	  default_header(); ?>
 <ul id="fullagenda">
 	<?php foreach($cfg['agenda'] as $item) { ?>

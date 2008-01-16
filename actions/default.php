@@ -1,6 +1,6 @@
 <?php use_background('bg-home.png');
 	  include_stylesheet('home');
-	  require_once('config.agenda.php');
+	  require_once('lib/agenda.php');
 	  default_header(); ?>
 			<ul id="agenda">
 				<?php foreach($cfg['agenda'] as $item) { ?>
