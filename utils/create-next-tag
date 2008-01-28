@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+m = 0
+`git tag -l`.each_line do |l|
+	v = l[1..-1].to_i
+	m = [m, v].max
+end
+t = (m + 1).to_s
+puts "Executing git-tag for r#{t}"
+`git tag r#{t} -s -m 'Release #{t}'`
