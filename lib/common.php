@@ -122,7 +122,7 @@ function default_footer() { global $cfg; ?>
 		<a href="http://www.google.com/search?q=ie+sucks">smerige rotzooi</a>. Gebruik een
 		fatsoenlijke browser zoals 
 		<a href="http://www.mozilla.com/en-US/firefox/">Firefox</a>.<br/>
-		<![endif]-->&copy;2007 &mdash; Karpe Noktem<?php
+		<![endif]-->&copy;2007, 2008 &mdash; Karpe Noktem<?php
 		if(isset($cfg['release'])) {
 			echo "; <a href='".auri('release')."'>".
 			     date('d M' ,$cfg['release']['date'])."</a>";
