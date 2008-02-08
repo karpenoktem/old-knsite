@@ -15,6 +15,15 @@ $cfg['agenda'] = array(
 	      "wat dvd's mee. Verder wordt het gewaardeerd zelf een drankje ".
 	      "mee te nemen, Daan is helaas geen filantropische instelling.".
 	      "<br/>St Annastraat 21 A, vanaf 21:00"),
+	array("ZAK: filmavond",
+	      "12 Feb",
+	      "Dinsdag 12 februari",
+	      "ZAK: Retro-Horror Filmavond",
+	      "De ZAK weet de zenuwen, en de incidentiele lachspier, weer te ".
+	      "prikkelen op deze filmavond, die dit keer geheel in het teken ".
+	      "staat van de retro-horror! We gaan onder meer terug naar ".
+	      "Twilight Zone en Tales from the Crypt.<br/>".
+	      "Stikke Hezelstraat 21.  Aanmelden bij jorg."),
 	array("Tweede ALV",
 	      "13 Feb",
 	      "Woensdag 13 februari",
