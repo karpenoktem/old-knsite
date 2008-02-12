@@ -6,15 +6,6 @@ $cfg['agenda'] = array(
 	      "Datum op agenda pagina",
 	      "Titel op agenda pagina",
 	      "Tekst op agenda pagina"), */
-	array("Filmavond",
-	      "6 Feb",
-	      "Woensdag 6 februari",
-	      "Filmavond bij Daan",
-	      "De fantastische after-carnaval filmavond bij Daan thuis.".
-	      "Daan zal zorgen voor de eerste film, Die Hard 4.0, neem vooral ".
-	      "wat dvd's mee. Verder wordt het gewaardeerd zelf een drankje ".
-	      "mee te nemen, Daan is helaas geen filantropische instelling.".
-	      "<br/>St Annastraat 21 A, vanaf 21:00"),
 	array("ZAK: filmavond",
 	      "12 Feb",
 	      "Dinsdag 12 februari",
@@ -48,6 +39,12 @@ $cfg['agenda'] = array(
 	      "uitdagen tot een potje Guitar Hero, kom lekker een potje".
               " pokeren of ouderwets kolonisten spelen.<br/>".
 	      "Aanvang 16:00 uur voor vroege vogels. 19:30 barst het los."),
+	array("Themaborrel",
+	      "27 Feb",
+	      "Woensdag 27 februari",
+	      "Themaborrel",
+	      "Het Theme zal zo snel mogelijk bekend gemaakt worden<br/>".
+	      "Aanvang 8:30, Cafe Dollars"),
 	array("Pokeravond",
 	      "5 Maart",
 	      "Woensdag 5 maart",
