@@ -94,7 +94,7 @@ function emit_menu() { ?>
 					<li><a href="http://www.flickr.com/photos/12267979@N04/">Karpe Noktem</a></li>
 					<li><a href="http://www.flickr.com/photos/12264801@N04/">Pluk het weekend</a></li>
 				</ul>
-				<li><a href="http://www.ru.nl/karpenoktem/forum">Forum</a></li>
+				<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
 				<li><a href="<?php echo auri('merchandise') ?>"
 						>Merchandise</a></li>
 				<ul>
