@@ -21,7 +21,9 @@ $cfg['agenda'] = array(
 	      "Voor alle Marcel Luske's, Noah Boeken's en minder goden van de ".
 	      "pokerwereld organiseert Karpe Noktem de tweede pokeravond van ".
 	      "dit jaar. Wie o wie wordt Judith's opvolg(st)er als ".
-	      "pokermeester(es)?<br/>".
+	      "pokermeester(es)?".
+	      "Het is belangrijk je <strong>op tijd</strong> in te schrijven ".
+	      "bij Niels <".email('niels_nacfan@hotmail.com').">.<br/>".
 	      "Cafe 't Haantje, vanaf 20:30"),
 	array("Benefiet feest",
 	      "12 Maart",
@@ -44,7 +46,8 @@ $cfg['agenda'] = array(
 	      "geven. Of, zoals ze zelf zeggen: \"Roert den trom! Steekt den ".
 	      "bazuin! Scherpt uw zwaard en sluit vrouwen en dochters op! ".
 	      "Turisas is wedergekeerd.\" Kaartjes kosten 10 euro, het begint ".
-	      "om 19:00 uur. Laat even weten of je meegaat aan Jorg, dan gaan ".
+	      "om 19:00 uur. Laat even weten of je meegaat aan ".
+	      email('jorg@kennisonline.com').", dan gaan ".
 	      "we gezellig samen."),
 	array("Themaborrel",
 	      "19 Maart",
@@ -59,7 +62,8 @@ $cfg['agenda'] = array(
 	      "De beruchte Karpe Noktem Extreme Playbackshow. Zoals elk jaar ".
 	      "de ideale mogelijkheid om je te verkleden als je (jeugd)helden".
 	      " en je medeleden te vermaken. Een locatie volgt ASAP, maar geef".
-	      " je alvast op bij het bestuur of op het forum!")
+	      " je alvast op bij het bestuur of op het ".
+	      "<a href='".auri('forum')."'>forum</a>!")
 );
 
 ?>
