@@ -27,6 +27,12 @@ $cfg['agenda'] = array(
 	      "het feest zal DJ Jesper draaien en kunnen jullie genieten van ".
 	      "zowel de Carolus als de Karpe Noktem huisband. De opbrengst ".
 	      "van dit feest gaat naar het goede doel!"),
+	array("ZAK: A-team avond",
+	      "13 Maart",
+	      "Donderdag 13 maart",
+	      "ZAK: A-team avond",
+	      "A-teamavond bij Paul thuis (Graafseweg 33). Vanaf 21:00 uur ".
+	      "is iedereen welkom."),
 	array("ZAK: Doornroosje",
 	      "16 Maart",
 	      "Zondag 16 Maart",
@@ -41,12 +47,12 @@ $cfg['agenda'] = array(
 	      "om 19:00 uur. Laat even weten of je meegaat aan ".
 	      email('jorg@kennisonline.com').", dan gaan ".
 	      "we gezellig samen."),
-	array("Themaborrel",
+	array("Beachborrel",
 	      "19 Maart",
 	      "Woensdag 19 Maart",
-	      "Themaborrel",
-	      "De eerste thema borrel van het nieuwe barhoofd Anke<br/>".
-	      "Vanaf 20:30 in cafe Dollars"),
+	      "Beachborrel",
+	      "Beachborrel boven Dollars, in (zeer) zomerse sferen relaxen met".
+	      " je medeleden. Vanaf 20:30 uur."),
 	array("Playbackshow",
 	      "26 Maart",
 	      "Woensdag 26 Maart",
@@ -55,7 +61,13 @@ $cfg['agenda'] = array(
 	      "de ideale mogelijkheid om je te verkleden als je (jeugd)helden".
 	      " en je medeleden te vermaken. Een locatie volgt ASAP, maar geef".
 	      " je alvast op bij het bestuur of op het ".
-	      "<a href='".auri('forum')."'>forum</a>!")
+	      "<a href='".auri('forum')."'>forum</a>!"),
+	array("Poezieavond",
+	      "2 April",
+	      "Woensdag 2 april",
+	      "Poezieavond",
+	      "De jaarlijkse poezieavond, dit maal wederom in caf? het Haantj".
+	      "e. De precieze line up volgt zo snel mogelijk. Vanaf 21:00 uur.")
 );
 
 ?>
