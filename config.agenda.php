@@ -56,7 +56,17 @@ $cfg['agenda'] = array(
 	      "Woensdag 2 april",
 	      "Poezieavond",
 	      "De jaarlijkse poezieavond, dit maal wederom in caf? het Haantj".
-	      "e. De precieze line up volgt zo snel mogelijk. Vanaf 21:00 uur.")
+	      "e. De precieze line up volgt zo snel mogelijk. Vanaf ".
+	      "21:00 uur."),
+	array("Poezieborrel",
+	      "9 April",
+	      "Woensdag 9 april",
+	      "Poezieborrel",
+	      "Aangezien jullie een week eerder inspiratie hebben kunnen ".
+	      "opdoen, mogen jullie dit keer zelf. Schrijf je beste poezie ".
+	      "(proza mag ook hoor) en doe je medeleden versteld staan. ".
+	      "Inschrijven kan bij het bestuur, of op de barlijst.<br/>".
+	      "Zaaltje boven Dollars, vanaf 20:30 uur.")
 );
 
 ?>
