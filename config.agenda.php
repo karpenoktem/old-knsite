@@ -6,22 +6,6 @@ $cfg['agenda'] = array(
 	      "Datum op agenda pagina",
 	      "Titel op agenda pagina",
 	      "Tekst op agenda pagina"), */
-	array("Benefiet feest",
-	      "12 Maart",
-	      "Woensdag 12 maart",
-	      "Benefiet feest met Carolus",
-	      "Het grote Karpe Noktem/Carolus Magnus Tussen twee Werelden ".
-	      "benefiet feest. Dit zal plaatsvinden op de societeit van ".
-	      "Carolus (Hertogstraat 141) en om 22:00 uur beginnen. Tijdens ".
-	      "het feest zal DJ Jesper draaien en kunnen jullie genieten van ".
-	      "zowel de Carolus als de Karpe Noktem huisband. De opbrengst ".
-	      "van dit feest gaat naar het goede doel!"),
-	array("ZAK: A-team avond",
-	      "13 Maart",
-	      "Donderdag 13 maart",
-	      "ZAK: A-team avond",
-	      "A-teamavond bij Paul thuis (Graafseweg 33). Vanaf 21:00 uur ".
-	      "is iedereen welkom."),
 	array("ZAK: Doornroosje",
 	      "16 Maart",
 	      "Zondag 16 Maart",
