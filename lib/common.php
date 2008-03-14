@@ -89,10 +89,12 @@ function emit_menu() { ?>
 				</ul>
 				<li><a href="<?php echo auri('agenda') ?>"
 				    >Agenda</a></li>
-				<li>Fotos</li>
+				<li><a href="<?php echo auri('media') ?>">Fotos/videos</a></li>
 				<ul>
 					<li><a href="http://www.flickr.com/photos/12267979@N04/">Karpe Noktem</a></li>
 					<li><a href="http://www.flickr.com/photos/12264801@N04/">Pluk het weekend</a></li>
+					<li><a href="<?php echo auri('media') ?>"
+						>...meer</a></li>
 				</ul>
 				<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
 				<li><a href="<?php echo auri('merchandise') ?>"
