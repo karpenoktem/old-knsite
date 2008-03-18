@@ -6,20 +6,6 @@ $cfg['agenda'] = array(
 	      "Datum op agenda pagina",
 	      "Titel op agenda pagina",
 	      "Tekst op agenda pagina"), */
-	array("ZAK: Doornroosje",
-	      "16 Maart",
-	      "Zondag 16 Maart",
-	      "ZAK: Concert bezoek in Doornroosje",
-	      "De ZAK gaat met de voetjes van de vloer tijdens een bezoek ".
-	      "aan Doornroosje op 16 maart, waar Heidevolk (onze Gelderse ".
-	      "folk grootheden), Norther en bovenal Turisas (Wie kent ze ".
-	      "niet: Battle Metal en Rasputin!) acte de presence zullen ".
-	      "geven. Of, zoals ze zelf zeggen: \"Roert den trom! Steekt den ".
-	      "bazuin! Scherpt uw zwaard en sluit vrouwen en dochters op! ".
-	      "Turisas is wedergekeerd.\" Kaartjes kosten 10 euro, het begint ".
-	      "om 19:00 uur. Laat even weten of je meegaat aan ".
-	      email('jorg@kennisonline.com').", dan gaan ".
-	      "we gezellig samen."),
 	array("Beachborrel",
 	      "19 Maart",
 	      "Woensdag 19 Maart",
