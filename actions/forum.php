@@ -1,3 +1,3 @@
 <?php
-header('location: http://www.ru.nl/karpenoktem/forum');
+header('location: http://www2.ru.nl/karpenoktem/forum');
 ?>
