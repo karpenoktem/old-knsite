@@ -6,12 +6,16 @@ $cfg['agenda'] = array(
 	      "Datum op agenda pagina",
 	      "Titel op agenda pagina",
 	      "Tekst op agenda pagina"), */
-	array("Beachborrel",
+	array("Kroegentocht",
 	      "19 Maart",
 	      "Woensdag 19 Maart",
-	      "Beachborrel",
-	      "Beachborrel boven Dollars, in (zeer) zomerse sferen relaxen met".
-	      " je medeleden. Vanaf 20:30 uur."),
+	      "Kroegentocht",
+	      "In tegenstelling tot eerdere berichten kan de beachborrel geen".
+	      " doorgang vinden. Als alternatief bieden we jullie een ouder".
+	      "wetse kroegentoch aan.  Verzamelen doen we tussen 20:30 uur en".
+	      " 21:30 in cafe Samson, om aldaar een lekker speciaalbiertje ".
+	      "te nuttigen. Waar het lot, of beter gezegd Daan Fifis ons ".
+	      "daarna, ons daarna brengt zullen we daarna zien"),
 	array("Playbackshow",
 	      "26 Maart",
 	      "Woensdag 26 Maart",
@@ -36,7 +40,14 @@ $cfg['agenda'] = array(
 	      "opdoen, mogen jullie dit keer zelf. Schrijf je beste poezie ".
 	      "(proza mag ook hoor) en doe je medeleden versteld staan. ".
 	      "Inschrijven kan bij het bestuur, of op de barlijst.<br/>".
-	      "Zaaltje boven Dollars, vanaf 20:30 uur.")
+	      "Zaaltje boven Dollars, vanaf 20:30 uur."),
+	array("Beachborrel",
+	      "16 April",
+	      "Woensdag 16 april",
+	      "Beachborrel (take 2)",
+	      "De tweede poging voor de beachborrel.  Nu de temperaturen ".
+	      "(hopelijk) weer richting zomers gaan is dit de ideale manier ".
+	      "om lekker te chillen. Vanaf 20:30 in cafe Dollars")
 );
 
 ?>
