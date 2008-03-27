@@ -1,3 +1,5 @@
 #!/bin/bash
+
 git pull --upload-pack=/www/karpenok/bin/git-upload-pack ssh://karpenok@galeras.uci.kun.nl/www/karpenok/webdocs
 
+git fetch --tags --upload-pack=/www/karpenok/bin/git-upload-pack ssh://karpenok@galeras.uci.kun.nl/www/karpenok/webdocs
