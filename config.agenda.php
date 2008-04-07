@@ -6,32 +6,6 @@ $cfg['agenda'] = array(
 	      "Datum op agenda pagina",
 	      "Titel op agenda pagina",
 	      "Tekst op agenda pagina"), */
-	array("Zusjesfeest",
-	      "4 April",
-	      "Vrijdag 4 april",
-	      "Zusjesfeest bij Catena",
-	      "in Leiden, het thema is Heroes and Villains! Meld je aan bij ".
-	      "Judith <".email('ik_moi@hotmail.com').">. We verzamelen om ".
-	      "19:25 op Nijmegen centraal en nemen dan de trein van 19:39 ".
-	      "uur naar het westen des lands. In Leiden bestaat de ".
-	      "mogelijkheid om te blijven slapen, maar neem wel een matje en ".
-	      "een slaapzak mee. De vereniging die om middernacht met de ".
-	      "grootste afgevaardiging aanwezig is krijgt gratis bier!"),
-	array("ZAK: Concert",
-	      "5 April",
-	      "Zaterdag 5 April",
-	      "Diablo Swing Orchestra Concert",
-	      "De Zwarte Aktiviteiten Kommissie gaat met een groepje naar ".
-	      "Diablo Swing Orchestra in de willemeen in Arnhem. Deze Zweedse ".
-	      "band combineert gothicmetal met o.a. swing en Spaanse muziek ".
-	      "om zo tot een unieke sound te komen. Een kaartje kost 6 euro. ".
-	      "Voordat we daar naartoe gaan is er ook de mogelijkheid om ".
-	      "gezellig samen met ons te eten bij Paul of als er veel mensen ".
-	      "aanmelden op een andere lokatie vanwege beperkte ruimte. ".
-	      "Meld je hier voor aan bij ".email('pvleeuwen@gmail.com').".".
-	      "Enkele nummers van de band zijn te beluisteren op: ".
-	      "<a href='http://www.myspace.com/diabloswingorchestra'>".
-	      "myspace</a>."),
 	array("Poezieborrel",
 	      "9 April",
 	      "Woensdag 9 april",
