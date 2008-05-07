@@ -6,30 +6,6 @@ $cfg['agenda'] = array(
 	      "Datum op agenda pagina",
 	      "Titel op agenda pagina",
 	      "Tekst op agenda pagina"), */
-	array("Karpe Rokt'em",
-	      "23 April",
-	      "Woensdag 23 April",
-	      "Karpe Rokt'em",
-	      "Daar is hij weer, de beruchte Karpe Rokt'em. Wderom in cafe ".
-	      "Merleyn en dit keer zelfs met twee bands; Anavarin en als ".
-	      "headline The Analog Project. We beginnen om 22:00. Entree ".
-	      "is uiteraard gratis voor leden, voor niet-leden vragen we het ".
-	      "luttele bedrag van 4 euro, neem je vrienden, kennissen, ".
-	      "kleine zusjes etc mee!"),
-	array("Vodkaborrel",
-	      "30 April",
-	      "Woensdag 30 April",
-	      "Vodkaborrel",
-	      "Wat is er nou leuker dan op konninginedag oranje wodka drinken ".
-	      "in de Bijstand? Niets toch? We verzamelen om 20:30 uur."),
-	array("Themaborrel",
-	      "7 Mei",
-	      "Woensdag 7 Mei",
-	      "Themaborrel",
-	      "Tijd voor een onvervalste themaborrel. Mocht je nog iets leuks ".
-	      "weten kun je dit natuurlijk altijd met onze lieftallige ".
-	      "barvrouw Anke bespreken.<br/>".
-	      "Vanaf 20:30 in Cafe Dollars"),
 	array("Pokeravond",
 	      "14 Mei",
 	      "Woensdag 14 Mei",
@@ -38,7 +14,22 @@ $cfg['agenda'] = array(
 	      "Vooraf inschrijven is vereist, en dit kan bij Daan ".
 	      "<". email('hertogdaan@gmail.com')."> of op de barlijst. ".
 	      "We beginnen om 21:00 uur stipt.  Wees op tijd anders kun je ".
-	      "niet meer meedoen.")
+	      "niet meer meedoen."),
+	array("Hippieborrel",
+	      "21 Mei",
+	      "Woensdag 21 mei",
+	      "De Hippie Borrel",
+	      "zoals het horot in een pluizenvereniging.<br/>".
+	      "<em>Vanaf 20:30 in cafe Dollars"),
+	array("Filmavond",
+	      "28 Mei",
+	      "Woensdag 28 mei",
+	      "Filmavond",
+	      "Filmavond bij Daan thuis. In ieder geval met ".
+	      "<i>Boondock Saints</i> op het programma. Suggesties zijn welkom".
+	      " en op dit adres te melden.  Aangezien Daan jammer genoeg geen".
+	      " filantropische instelling is, is dit een zogeheten \"bring".
+	      " your own beer\" feestje.")
 );
 
 ?>
