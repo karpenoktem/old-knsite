@@ -20,7 +20,7 @@ $cfg['agenda'] = array(
 	      "Woensdag 21 mei",
 	      "De Hippie Borrel",
 	      "zoals het horot in een pluizenvereniging.<br/>".
-	      "<em>Vanaf 20:30 in cafe Dollars"),
+	      "<em>Vanaf 20:30 in cafe Dollars</em>"),
 	array("Filmavond",
 	      "28 Mei",
 	      "Woensdag 28 mei",
