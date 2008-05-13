@@ -57,7 +57,8 @@ $cfg['agenda'] = array(
 	      "(22,50 voor externen) kunnen we tussen 22:00 uur en 3:00 ".
 	      "uur onbeperkt genieten van bier, wijn en fris en zullen onze ".
 	      "huisDj's er een geweldig feest van maken. Het bestuur zal ".
-	      "vanaf morgen kaartjes verkopen, dus neem voldoende geld mee!".
+	      "vanaf morgen kaartjes verkopen, het is voorverkoop (!)".
+	      ", dus neem voldoende geld mee!".
 	      " Voor degene die het best in stijl verschijnt is er ".
 	      "een beloning.")
 );
