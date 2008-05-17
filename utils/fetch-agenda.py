@@ -82,7 +82,8 @@ def to_config_agenda_php(events):
                                               end_time.day))
         o.write(t +
                 "       %s,\n\"" % phpstr(title))
-        o.write(content.encode('latin-1'))
+        content = unicode(content, 'utf8')
+	o.write(content.encode('latin1'))
         o.write("\")")
     o.write(");\n"+
             "?>")
