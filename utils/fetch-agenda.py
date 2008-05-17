@@ -30,9 +30,10 @@ def parse_date_range(start, end):
     if end.find('T') == -1:
         end += 'T23:59:59.000'
         hack_on_end = True
+    if hack_on_end: the_end_date = parse_date(end) - timedelta(1,0,0)
+    else: the_end_date = parse_date(end)
     return (parse_date(start),
-            parse_date(end) - timedelta(1,0,0) if hack_on_end \
-            else parse_date(end) )
+            the_end_date )
 
 def retreive(cid):
     """ Retreives the public future events on the calendar with id <cid> """
