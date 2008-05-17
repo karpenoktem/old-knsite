@@ -11,4 +11,5 @@
 	<?php } ?>
 </ul>
 
+<p>We houden ook <a href="http://www.google.com/calendar/embed?src=vssp95jliss0lpr768ec9spbd8%40group.calendar.google.com&ctz=Europe/Paris">een Google Calendar</a> bij.</p>
 <?php default_footer(); ?>
