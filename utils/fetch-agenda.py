@@ -24,11 +24,15 @@ default_cid = "vssp95jliss0lpr768ec9spbd8@group.calendar.google.com"
 
 def parse_date_range(start, end):
     """ Ugly hack to properly parse gdata date ranges """
+    hack_on_end = False
     if start.find('T') == -1:
         start += 'T00:00:00.000'
     if end.find('T') == -1:
-        end += 'T23:59:59.999'
-    return (parse_date(start), parse_date(end))
+        end += 'T23:59:59.000'
+        hack_on_end = True
+    return (parse_date(start),
+            parse_date(end) - timedelta(1,0,0) if hack_on_end \
+            else parse_date(end) )
 
 def retreive(cid):
     """ Retreives the public future events on the calendar with id <cid> """
@@ -82,8 +86,11 @@ def to_config_agenda_php(events):
                                               end_time.day))
         o.write(t +
                 "       %s,\n\"" % phpstr(title))
-        content = unicode(content, 'utf8')
-	o.write(content.encode('latin1'))
+
+        if isinstance(content, str):
+            # FIXME why the difference?
+            content = unicode(content, 'utf8')
+        o.write(content.encode('latin1'))
         o.write("\")")
     o.write(");\n"+
             "?>")
