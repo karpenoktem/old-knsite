@@ -1,8 +1,9 @@
 <?php
 
 $page = array('bg' => 'bg.png',
-			  'stylesheets' => array('common'),
-			  'title' => '');
+			  'stylesheets' => array('bare'),
+			  'title' => '',
+			  'bare' => false);
 
 function auri($action, $qs='', $an='') {
 	global $cfg;
@@ -19,6 +20,7 @@ function curi($content) {
 
 function emit_stylesheets() {
 	global $page;
+	if(!$page['bare']) { $page['stylesheets'][]= 'common'; }
 	foreach($page['stylesheets'] as $stylesheet) { ?>
 		<link href="<?php echo curi("style/{$stylesheet}.css"); ?>"
 			  rel="stylesheet" type="text/css" />
@@ -28,6 +30,11 @@ function emit_stylesheets() {
 function set_title($title) {
 	global $page;
 	$page['title'] = $title;
+}
+
+function bare_page() {
+	global $page;
+	$page['bare'] = true;
 }
 
 function use_background($bg) {
@@ -48,9 +55,11 @@ function default_header() { global $page; ?>
 	<head>
 		<?php emit_stylesheets() ?>
 		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
+		<?php if(!$page['bare']) { ?>
 		<style type="text/css">
 			#main { background-image: url(<?php echo curi("img/{$page['bg']}"); ?>); }
 		</style>
+		<?php } ?>
 		<!--[if lte IE 7]>
 		<link rel="stylesheet" type="text/css" href="<?php echo curi('style/iehacks.css'); ?>" />
 		<![endif]-->
@@ -60,15 +69,19 @@ function default_header() { global $page; ?>
 	</head>
 	<body>
 		<div id="wrapper">
+		<?php if(!$page['bare']) { ?>
 		<div id="logo"></div>
+		<?php } ?>
 		
 		<div id="main">	
 			<div id="body">
+				<?php if(!$page['bare']) { ?>
 				<?php if(!empty($page['title'])) { ?><h2><?php echo $page['title']; ?></h2><?php } ?>
+				<?php } ?>
 			<?php
 }
 
-function emit_menu() { ?>
+function emit_menu() { global $page; ?>
 			<ul id="menu">
 				<li><a href="<?php echo auri('default'); ?>">Beginpagina</a></li>
 				<li><a href="<?php echo auri('watis') ?>"
@@ -114,10 +127,11 @@ function emit_menu() { ?>
 			<?php
 }
 
-function default_footer() { global $cfg; ?>
+function default_footer() { global $cfg, $page; ?>
 			</div>
-			
+			<?php if(!$page['bare']) { ?>
 			<?php emit_menu(); ?>
+			<?php } ?>
 		</div>
 		<div id="footer"><!--[if IE]>
 		Internet Explorer is 
