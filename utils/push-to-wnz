@@ -1,0 +1,5 @@
+#!/bin/bash
+git push --all ssh://root@w-nz.com:27472/var/www/karpenoktem.nl/htdocs 
+git push --tags ssh://root@w-nz.com:27472/var/www/karpenoktem.nl/htdocs 
+
+ssh -p 27472 root@w-nz.com 'cd /var/www/karpenoktem.nl/htdocs; git checkout -f; utils/install config.release.php' 
