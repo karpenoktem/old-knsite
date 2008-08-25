@@ -1,10 +1,10 @@
 <?php set_title('Media');
       default_header(); ?>
 <ul>
-	<li><a href="http://www.flickr.com/photos/12267979@N04/"
+	<li><a href="http://kn.w-nz.com/fotos/"
 	     >Fotos van Karpe Noktem</a> en</li>
-	<li><a href="http://www.flickr.com/photos/12264801@N04/"
-	     >Pluk het Nacht weekend 2007</a> op Flickr.</li>
+	<li><a href="http://kn.w-nz.com/fotos/index.php?album=pdn"
+	     >Pluk het Nacht weekend</a> .</li>
 	<li><a href="http://www.carolusmagnus.nl/page_types/photogallery/show_collection.asp?collection_id=116"
 	     >Fotos op de site van Carolus</a>; videos 
 	    <a href="http://www.voxlog.nl/blog/studentslive-carolus-magnus-karpe-noktem"
