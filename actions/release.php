@@ -11,6 +11,6 @@
 	<dd><?php echo $cfg['release']['branch']; ?></dd>
 </dl>
 
-<p><a href="http://www2.ru.nl/cgi-bin-karpenoktem/gitweb.cgi?p=.git;a=summary">Geschiedenis en broncode</a> van karpenoktem.nl</p>
+<p><a href="http://w-nz.com/cgi-bin/gitweb.cgi?p=kn.git;a=summary">Geschiedenis en broncode</a> van karpenoktem.nl</p>
 
 <?php default_footer(); ?>
