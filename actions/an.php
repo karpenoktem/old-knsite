@@ -6,6 +6,7 @@
 		<li>Jaargang 4</li>
 		<ul>
 			<li><a href="<?php echo curi('archief/akta10.pdf'); ?>">Akta 10</a></li>
+			<li><a href="<?php echo curi('archief/akta11.pdf'); ?>">Akta 11</a></li>
 		</ul>	
 		<li>Jaargang 3</li>
 		<ul>	
