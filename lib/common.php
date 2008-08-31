@@ -84,9 +84,6 @@ function default_header() { global $page; ?>
 function emit_menu() { global $page; ?>
 			<ul id="menu">
 				<li><a href="<?php echo auri('home'); ?>">Beginpagina</a></li>
-				<ul>
-					<li><a href="<?php echo auri('intro2008'); ?>">Intro poster</a></li>
-				</ul>
 				<li><a href="<?php echo auri('watis') ?>"
 					>Over ons</a></li>
 				<ul>
