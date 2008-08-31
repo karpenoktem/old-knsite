@@ -105,7 +105,7 @@ function emit_menu() { global $page; ?>
 				<li><a href="<?php echo auri('media') ?>">Fotos/videos</a></li>
 				<ul>
 					<li><a href="http://kn.w-nz.com/fotos/">Karpe Noktem</a></li>
-					<li><a href="http://kn.w-nz.com/fotos/index.php?album=pdn">Pluk het weekend</a></li>
+					<li><a href="http://kn.w-nz.com/fotos/index.php?album=pdn">Pluk de Nacht</a></li>
 					<li><a href="<?php echo auri('media') ?>"
 						>...meer</a></li>
 				</ul>
