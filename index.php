@@ -28,6 +28,10 @@ elseif(empty($bits[0]))
 else
 	$act = $bits[0];
 
-require_once("actions/$act.php");
+$file = "actions/$act.php";
+
+if(!is_file($file)) die("$act: Action doesn't exist";
+
+require_once($file);
 
 ?>
