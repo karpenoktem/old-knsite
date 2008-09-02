@@ -4,5 +4,5 @@
 spreekuur - alleen op afspraak, tenminste 1 dag van tevoren gemeld via
 <?php echo email('voorzitter@karpenoktem.nl'); ?> - tijdens de pauze.</p>
 <p>Voor vragen ofwel opmerkingen over de website karpenoktem.nl kunt u 
-mailen met <?php echo email('webmaster@karpenoktem.nl'); ?>.</p>
+mailen met <?php echo email('webcie@karpenoktem.nl'); ?>.</p>
 <?php default_footer(); ?>
