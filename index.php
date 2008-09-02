@@ -15,7 +15,7 @@ elseif(isset($_GET['path']))
 elseif(isset($_POST['path']))
 	$path = $_POST['path'];
 else
-	$path = null;
+	$path = '';
 	
 $bits = explode('/', $path);
 
