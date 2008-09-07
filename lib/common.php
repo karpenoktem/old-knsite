@@ -116,6 +116,7 @@ function emit_menu() { global $page; ?>
 					<li><a href="<?php echo auri('merchandise') ?>"
 						>Tshirts</a></li>
 				</ul>
+				<li><a href="<?php echo auri('commissies'); ?>">Commissies</a></li>
 				<li>Downloaden</li>
 				<ul>
 					<li><a href="<?php echo auri('an') ?>"
