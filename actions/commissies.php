@@ -9,6 +9,14 @@
 	<dd>De Bar commissie zorgt voor versgetapt bier op de borrels.
 	Wil je de barco versterken, e-mail dan naar
 	<?php echo email('barco@karpenoktem.nl'); ?>.</dd>
+	<dt>CoCo</dt>
+	<dd>De Corporale Commissie organiseert zijn naam waardige
+	activiteiten, met een knipoog.
+	<?php echo email('coco@karpenoktem.nl'); ?>.</dd>
+	<dt>DeLiCo</dt>
+	<dd>De Debat en Literatuur commissie organiseert poezie en debat
+	avonden en zo nu en dan een uitstapje.
+	<?php echo email('delico@karpenoktem.nl'); ?>.</dd>
 	<dt>FotoCie</dt>
 	<dd>De Foto commissie maakt foto's van activiteiten.  Heb jij fotos
 	die je op de site moeten komen, e-mail dan naar
