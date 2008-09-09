@@ -34,5 +34,12 @@
 	weekenden.  Wil je mee helpen, je inschrijven voor een weekend
 	of heb je iets te vragen, e-mail dan naar
 	<?php echo email('weekendcie@karpenoktem.nl'); ?>.</dd>
+	<dt>ZAK</dt>
+	<dd>Voor activiteiten die het daglicht niet kunnen verdragen kan je
+	terecht bij de Zwarte Aktiviteiten Kommissie.  De ZAK organiseert
+	regelmatig horrorfilmavonden of uitstapjes naar concerten.  Een
+	regelmatig terugkerende activiteit is de Waas aan de Waal, waarbij
+	een nacht op het Waalstrand wordt doorgebreacht.
+	<?php echo email('zak@karpenoktem.nl'); ?>.</dd>
 </dl>
 <?php default_footer(); ?>
