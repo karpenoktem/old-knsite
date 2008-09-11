@@ -58,3 +58,7 @@ h2 {
         clear: both;
         text-align: center;
 }
+
+address {
+	padding-left: 3em;
+}
