@@ -54,7 +54,11 @@ def retreive(cid):
 
 def phpstr(s):
     """ Converts <s> to a php string literal """
-    return repr(s)
+    if isinstance(s, str):
+        # FIXME why the difference?
+        s = unicode(s, 'utf8')
+    ret = '"%s"' % s.encode('latin1')
+    return ret
 
 def to_config_agenda_php(events):
     o = StringIO()
@@ -86,13 +90,10 @@ def to_config_agenda_php(events):
                                              (end_time.strftime('%%s %B') %
                                               end_time.day))
         o.write(t +
-                "       %s,\n\"" % phpstr(title))
+                "       %s,\n" % phpstr(title))
 
-        if isinstance(content, str):
-            # FIXME why the difference?
-            content = unicode(content, 'utf8')
-        o.write(content.encode('latin1'))
-        o.write("\")")
+        o.write(phpstr(content))
+        o.write(")")
     o.write(");\n"+
             "?>")
     return o.getvalue()
