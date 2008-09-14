@@ -73,6 +73,7 @@ def to_config_agenda_php(events):
     for title, content, start_time, end_time in events:
         if first: first = False
         else: o.write(',\n')
+        if content == None: content = ""
         content = content.replace('"', '\\"')
         content = content.replace("\n", "<br/>")
         erepl = re.compile("([A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4})",
