@@ -22,6 +22,6 @@ Contact: <?php echo email('penningmeester@karpenoktem.nl'); ?></p>
 <p>Kerstkaarten, uitnodigingen, rekeningen en alle andere zaken kunt
 u sturen naar:</p>
 <blockquote>ASV Karpe Noktem<br/>
-Heijendaalseweg 141, kamer -1.350<br/>
-6525 AJ Nijmegen</blockquote>
+Van Schaeck Mathonsingel 10<br/>
+6512 AP Nijmegen</blockquote>
 <?php default_footer(); ?>
