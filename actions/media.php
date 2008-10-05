@@ -1,9 +1,9 @@
 <?php set_title('Media');
       default_header(); ?>
 <ul>
-	<li><a href="http://kn.w-nz.com/fotos/"
+	<li><a href="http://karpenoktem.nl/fotos/"
 	     >Fotos van Karpe Noktem</a> en</li>
-	<li><a href="http://kn.w-nz.com/fotos/index.php?album=pdn"
+	<li><a href="http://karpenoktem.nl/fotos/index.php?album=pdn"
 	     >Pluk de Nacht weekend</a> .</li>
 	<li><a href="http://www.carolusmagnus.nl/page_types/photogallery/show_collection.asp?collection_id=116"
 	     >Fotos op de site van Carolus</a>; videos 
