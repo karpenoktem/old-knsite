@@ -55,6 +55,7 @@ function default_header() { global $page; ?>
 	<head>
 		<?php emit_stylesheets() ?>
 		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<?php if(!$page['bare']) { ?>
 		<style type="text/css">
 			#main { background-image: url(<?php echo curi("img/{$page['bg']}"); ?>); }
