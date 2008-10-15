@@ -161,5 +161,11 @@ function email($email) {
 		   "<noscript>[X@Y, waar voor Y=$d.$t en X=$u]</noscript>";
 }
 
+function interested_form() {
+	global $cfg;
+	return "<form method='post' action='{$cfg['interested-subscribe-uri']}'>".
+		"<input name='email' type='text' value='jouw@email.com' />".
+		"<input type='submit' value='voeg toe' /></form>";
+}
 
 ?>
