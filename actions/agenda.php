@@ -11,5 +11,9 @@
 	<?php } ?>
 </ul>
 
-<p>We houden ook <a href="http://www.google.com/calendar/embed?src=vssp95jliss0lpr768ec9spbd8%40group.calendar.google.com&ctz=Europe/Paris">een Google Calendar</a> bij.</p>
+<p>We houden ook <a href="http://www.google.com/calendar/embed?src=vssp95jliss0lpr768ec9spbd8%40group.calendar.google.com&ctz=Europe/Paris">een Google Calendar</a> bij. Leden krijgen elke week
+een ledenmail met de agenda er in.  Ben je geen lid, maar wel geinteresseerd
+in onze activiteiten, dan kun je jezelf op de geinteresseerden e-mail lijst
+zetten:</p>
+<p><?php echo interested_form(); ?></p>
 <?php default_footer(); ?>
