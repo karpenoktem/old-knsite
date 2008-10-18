@@ -2,8 +2,8 @@
 	  include_stylesheet('agenda');
 	  require_once('lib/agenda.php');
 	  default_header(); ?>
-<p><a href="http://www.google.com/calendar/embed?src=vssp95jliss0lpr768ec9spbd8%40group.calendar.google.com&ctz=Europe/Paris">Op Google Calendar</a>.
-Geen lid en op de hoogte blijven van onze activiteiten?
+<p><a href="http://www.google.com/calendar/embed?src=vssp95jliss0lpr768ec9spbd8%40group.calendar.google.com&ctz=Europe/Paris">Ook op Google Calendar</a>.
+Geen, maar wel op de hoogte blijven van onze activiteiten?
 Zet jezelf op de geinteresseerden e-mail lijst:</p>
 <p><?php echo interested_form(); ?></p>
 <ul id="fullagenda">
