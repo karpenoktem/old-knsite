@@ -1,4 +1,6 @@
 *~
+*.pyo
+*.pyc
 config.php
 config.agenda.php
 config.release.php
