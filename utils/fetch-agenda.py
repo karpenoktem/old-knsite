@@ -61,6 +61,9 @@ def phpstr(s):
 	return ret
 
 def to_config_agenda_php(events):
+	erepl = re.compile("([A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4})",
+			   re.IGNORECASE)
+	villare = re.compile("(villa van schaeck)", re.IGNORECASE)
 	o = StringIO()
 	events.sort(lambda x,y: cmp(x[3], y[3]))
 	o.write("<?php\n"+
@@ -76,9 +79,9 @@ def to_config_agenda_php(events):
 		if content == None: content = ""
 		content = content.replace('"', '\\"')
 		content = content.replace("\n", "<br/>")
-		erepl = re.compile("([A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4})",
-						   re.IGNORECASE)
 		content = erepl.sub("\".email('\\1').\"", content)
+		content = villare.sub(
+			"<a href='\".auri('route').\"'>\\1</a>", content)
 		# MAYDO, format content nicely
 		o.write(" array(%s,\n" % phpstr(title) +
 			"	   '%s',\n" % (start_time.strftime('%%s %b') %
