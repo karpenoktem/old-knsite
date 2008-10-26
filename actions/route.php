@@ -9,5 +9,5 @@ Nijmegen</address>
 <iframe width="425" height="350" frameborder="0" scrolling="no" 
         marginheight="0" marginwidth="0" 
 	src="http://maps.google.com/?ie=UTF8&amp;t=h&amp;s=AARTsJqzARj-Z8VnW5pkPMLMmZbqrJcYpw&amp;ll=51.842718,5.85641&amp;spn=0.00232,0.00456&amp;z=17&amp;output=embed"></iframe><br />
-<small><a href="http://maps.google.com/?ie=UTF8&amp;t=h&amp;ll=51.842718,5.85641&amp;spn=0.00232,0.00456&amp;z=17&amp;source=embed" style="text-align:left">Grotere map</a></small>
+<small><a href="http://maps.google.com/?ie=UTF8&amp;t=h&amp;ll=51.842718,5.85641&amp;spn=0.00232,0.00456&amp;z=17&amp;source=embed" style="text-align:left">Grotere kaart</a></small>
 <?php default_footer(); ?>
