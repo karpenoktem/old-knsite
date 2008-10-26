@@ -1,7 +1,13 @@
 <?php set_title('Agenda');
 	  require_once('lib/agenda.php'); ?>
 <html>
-	<head></head>
+	<head>
+		<script>
+			function email(a,b,c) {
+				document.write(c+'@'+b+'.'+a);
+			}
+		</script>
+	</head>
 	<body>
 	<ul>
 	<?php foreach($cfg['agenda'] as $item) { ?>
