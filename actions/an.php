@@ -5,6 +5,7 @@
 	<ul id="an">
 		<li>Jaargang 5</li>
 		<ul>
+			<li><a href="<?php echo curi('archief/akta12.pdf'); ?>">(Intro) Akta 12</a></li>
 			<li><a href="<?php echo curi('archief/akta13.pdf'); ?>">Akta 13</a></li>
 		</ul>
 		<li>Jaargang 4</li>
