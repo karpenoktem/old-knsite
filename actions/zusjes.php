@@ -14,7 +14,7 @@ dat bestaat uit zeven leden; de verenigingen
 <li><a href="http://www.sv-cyclades.nl/">Cyclades</a> uit Amsterdam,</li>
 <li><a href="http://www.saam.nl/">SAAM</a> uit Deventer,</li>
 <li><a href="http://www.wolbodo.nl/">Wolbodo</a> uit Delft en</li>
-<li><a href="http://www.wolweze.nl/">Wolweze</a> uit Leeuwarden.</li>
+<li><a href="http://www.wolweze.nl/">Wolw&ecirc;ze</a> uit Leeuwarden.</li>
 </ul>
 <p>Samen met deze verenigingen organiseren wij feesten, weekenden en hebben wij
 andere samenwerkingsverbanden.</p>
