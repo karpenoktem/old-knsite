@@ -19,4 +19,6 @@ vereniging; zijn innige contacten met vele instanties en verenigingen
 helpen hem hier uitstekend mee! <em>Maaike Greveling</em> (1983), hoofd 
 activiteiten, weet met haar organisatietalent en creativiteit altijd 
 weer leuke, nieuwe activiteiten neer te zetten.</p>
+<p>&lArr; Het vorige,
+<a href="<?php echo auri('bestuur4'); ?>">vierde bestuur</a>.</p>
 <?php default_footer(); ?>

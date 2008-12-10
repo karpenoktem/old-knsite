@@ -11,4 +11,6 @@ ervaring. Jorne van de Veen (Penningmeester) geldt als expert op het gebied
 van Financien. De grote creatieve geest in het bestuur is Judith Brinkkemper,
 die als oprichtster van de LoCo verse en originele ideeen de vrije ruimte
 geeft.</p>
+<p>&rArr; Het huidige,
+<a href="<?php echo auri('bestuur5'); ?>">vijfde bestuur</a>.</p>
 <?php default_footer(); ?>
