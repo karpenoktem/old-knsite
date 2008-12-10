@@ -1,7 +1,7 @@
 <?php set_title('Bestuur');
       default_header(); ?>
-<p>
-	<img class="big" src="<?php echo curi('img/bestuur5.jpg');?>" />
+<p class="imageDisplay">
+	<img src="<?php echo curi('img/bestuur5.jpg');?>" />
 	<small>Van links naar rechts: Jesper, Mike, Lisette, Rik en
 	       Maaike.</small>
 </p>

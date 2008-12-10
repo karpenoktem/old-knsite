@@ -58,3 +58,8 @@ a:hover {
 #footer, #main {
         border-top: 1px solid #800100;
 }
+
+.imageDisplay img {
+	padding: 0;
+	margin: 0;
+}
