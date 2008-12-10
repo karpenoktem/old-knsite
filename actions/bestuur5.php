@@ -1,6 +1,10 @@
-<?php set_title('Vijfde Bestuur');
-	  default_header(); ?>
-<img class="big" src="<?php echo curi('img/bestuur5.jpg'); ?>" />
+<?php set_title('Bestuur');
+      default_header(); ?>
+<p>
+	<img class="big" src="<?php echo curi('img/bestuur5.jpg');?>" />
+	<small>Van links naar rechts: Jesper, Mike, Lisette, Rik en
+	       Maaike.</small>
+</p>
 <p><strong>Het eerste lustrumbestuur</strong> is een geweldige afspiegeling
 van de Alternatieve S.V. Karpe Noktem: een jong, fris bestuur van een 
 jonge, frisse vereniging. <em>Lisette Huijbers</em> (1987), voorzitter,
