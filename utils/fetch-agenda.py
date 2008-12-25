@@ -46,6 +46,8 @@ def retreive(cid):
 				    str(now.day).zfill(2))
 	feed = cs.CalendarQuery(q)
 	for i, an_event in enumerate(feed.entry):
+		if len(an_event.when) == 0:
+			continue
 		r.append((an_event.title.text,
 			an_event.content.text,)+
 			parse_date_range(an_event.when[0].start_time,
