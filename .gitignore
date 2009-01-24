@@ -3,6 +3,7 @@
 *.pyc
 config.php
 config.agenda.php
+config.baragenda.php
 config.release.php
 old
 older
