@@ -1,6 +1,6 @@
 <?php
 
-$page = array('bg' => 'bg.png',
+$page = array('bg' => 'rest',
 			  'stylesheets' => array('bare'),
 			  'title' => '',
 			  'bare' => false);
@@ -47,7 +47,10 @@ function include_stylesheet($stylesheet) {
 	$page['stylesheets'][]= $stylesheet;
 }
 
-function default_header() { global $page; ?>
+function default_header() { 
+	global $page, $cfg; 
+	$img = $page['bg'].'.'.$cfg['bgs'][rand(0, count($cfg['bgs'])-1)];
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -58,7 +61,7 @@ function default_header() { global $page; ?>
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<?php if(!$page['bare']) { ?>
 		<style type="text/css">
-			#main { background-image: url(<?php echo curi("img/{$page['bg']}"); ?>); }
+			#main { background-image: url(<?php echo curi("img/bgs/$img"); ?>); }
 		</style>
 		<?php } ?>
 		<!--[if lte IE 7]>

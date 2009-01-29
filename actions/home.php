@@ -1,4 +1,4 @@
-<?php use_background('bg-home.png');
+<?php use_background('home');
 	  include_stylesheet('home');
 	  require_once('lib/agenda.php');
 	  default_header(); ?>
