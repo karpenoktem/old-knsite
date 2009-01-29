@@ -144,13 +144,18 @@ function default_footer() { global $cfg, $page; ?>
 		<a href="http://www.google.com/search?q=ie+sucks">smerige rotzooi</a>. Gebruik een
 		fatsoenlijke browser zoals 
 		<a href="http://www.mozilla.com/en-US/firefox/">Firefox</a>.<br/>
-		<![endif]-->&copy;2007&mdash;2009, Karpe Noktem<?php
+		<![endif]--><a href="<?php echo auri('lustrum'); ?>" 
+			       id="lustrumCountDown"></a><br/>
+		&copy;2007&mdash;2009, Karpe Noktem<?php
 		if(isset($cfg['release'])) {
 			echo "; <a href='".auri('release')."'>".
 			     date('d M' ,$cfg['release']['date'])."</a>";
 		}
 		?></div>
 		<!-- Source code? Take a look at the .git dir -->
+		<script type="text/javascript">
+			common_init();
+		</script>
 	</body>
 </html> <?php
 }
