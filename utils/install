@@ -32,6 +32,25 @@ f.write("<?\n"+
 	"$cfg['release']['by'] = '%s';\n" % cn +
 	"$cfg['release']['tag'] = '%s';\n" % tag +
 	"$cfg['release']['branch'] = '%s';\n" % branch +
+	"$cfg['bgs'] = array(\n")
+
+had = set()
+first = True
+for i in os.listdir('img/bgs'):
+	if i[-4:] != '.png':
+		continue
+	bits = i.split('.')
+	if len(bits) < 3:
+		continue
+	n = '.'.join(bits[1:])
+	if n in had:
+		continue
+	if first: first = False
+	else: f.write(',\n')
+	f.write("  '%s'" % n)
+	had.add(n)
+
+f.write("\n);\n"+
 	"?>")
 
 if f != sys.stdout:
