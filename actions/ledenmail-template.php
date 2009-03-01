@@ -1,13 +1,7 @@
 <?php set_title('Agenda');
+      unsafe_emails();
       require_once('lib/agenda.php'); ?>
 <html>
-	<head>
-		<script>
-			function email(a,b,c) {
-				document.write(c+'@'+b+'.'+a);
-			}
-		</script>
-	</head>
 	<body>
 	<ul>
 	<?php foreach($cfg['agenda'] as $item) { ?>

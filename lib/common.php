@@ -27,6 +27,11 @@ function emit_stylesheets() {
 	<?php }
 }
 
+function unsafe_emails() {
+	global $page;
+	$page['unsafe-email'] = true;
+}
+
 function set_title($title) {
 	global $page;
 	$page['title'] = $title;
@@ -164,6 +169,9 @@ function default_footer() { global $cfg, $page; ?>
 }
 
 function email($email) {
+	global $page;
+	if($page['unsafe-email'])
+		return "<a href='mailto:$email'>$email</a>";
 	$bits = explode('@', $email);
 	$u = $bits[0];
 	$bits = explode('.', $bits[1]);
