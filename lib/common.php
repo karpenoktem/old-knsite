@@ -149,9 +149,9 @@ function default_footer() { global $cfg, $page; ?>
 		</div>
 		<div id="footer"><!--[if IE]>
 		Internet Explorer is 
-		<a href="http://www.google.com/search?q=ie+sucks">smerige rotzooi</a>. Gebruik een
-		fatsoenlijke browser zoals 
-		<a href="http://www.mozilla.com/en-US/firefox/">Firefox</a>.<br/>
+		<a href="http://www.google.com/search?q=ie+sucks">brak</a>.
+		Gebruik <a href="http://www.mozilla.com/en-US/firefox/">een</a>
+		open browser voor een beter resultaat.<br/>
 		<![endif]--><a href="<?php echo auri('lustrum'); ?>" 
 			       id="lustrumCountDown"></a><br/>
 		&copy;2007&mdash;2009, Karpe Noktem<?php
