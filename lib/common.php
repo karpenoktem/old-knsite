@@ -108,6 +108,8 @@ function emit_menu() { global $page; ?>
 						>Contact</a></li>
 					<li><a href="<?php echo auri('lidworden') ?>"
 						>Lid worden</a></li>
+					<li><a href="<?php echo auri('lustrum') ?>"
+						>Lustrum</a></li>
 				</ul>
 				<li><a href="<?php echo auri('agenda') ?>"
 				    >Agenda</a></li>
@@ -121,10 +123,6 @@ function emit_menu() { global $page; ?>
 				<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
 				<li><a href="<?php echo auri('merchandise') ?>"
 						>Merchandise</a></li>
-				<ul>
-					<li><a href="<?php echo auri('merchandise') ?>"
-						>Tshirts</a></li>
-				</ul>
 				<li><a href="<?php echo auri('commissies'); ?>">Commissies</a></li>
 				<li>Downloaden</li>
 				<ul>
