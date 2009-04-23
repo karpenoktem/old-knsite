@@ -12,7 +12,7 @@ aanwezig zijn.  Uiteraard geldt op deze borrel het gebruikelijke bartarief en
 -aanbod van ASV Karpe Noktem.
 </dd>
 
-<dt>Dinsdagavond &mdash; eten met Leden</dt>
+<dt>Dinsdagavond &mdash; eten met leden</dt>
 <dd>
 In het gebouw van Scouting Traianus Nijmegen zal onze allereerste offici&euml;le
 'eten met leden'-activiteit plaatsvinden.  Tijdens deze megapicknick neemt ieder
@@ -25,7 +25,7 @@ tot het opwarmen van je gerecht.  Na het voedselfestijn is er ruim tijd om uit t
 buiken en na te genieten!
 </dd>
  
-<dt>Woensdagmiddag &mdash; spelen en relaxen in park Brakkenstein</dt>
+<dt>Woensdagmiddag &mdash; spelen en relaxen in Park Brakkenstein</dt>
 <dd>
 Na de zware maaltijd van dinsdagavond moeten al die extra calorie&euml;n er
 natuurlijk wel weer vanaf (of niet).  Daarom gaan we 's woensdags naar Park
@@ -33,7 +33,7 @@ Brakkenstein om daar in de middagzon te genieten van enkele sportieve activiteit
 (of niet).  Als je namelijk geen zin in hebt in al dat geren en gespring kun je
 uiteraard ook een beetje chillen in het gras.  Iedereen is welkom om wat
 picknick-benodigdheden mee te nemen, zoals sandwiches, pannekoeken, picknickmanden,
-tafelkleden, limonade, en zo voorts.  De LustrumCie zal zorgen voor bier, fris
+tafelkleden, limonade, enzovoorts.  De LustrumCie zal zorgen voor bier, fris
 en wijn.
 </dd>
 
@@ -56,7 +56,7 @@ zullen 1 euro bedragen, zoals jullie van Karpe Noktem gewend zijn.
 <dd>
 Na een vermoeiende donderdagavond is het tijd voor rust en recreatie.  Daarom
 zullen we ons vrijdagavond verzamelen in cafe 't Haantje om daar relaxed te
-genieten van een film die julli zelf mogen kiezen via de poll op onze site!  Alle
+genieten van een film die jullie zelf mogen kiezen via de poll op onze site!  Alle
 zusjes die nog in Nijmegen zijn gestrand zijn natuurlijk van harte welkom om samen
 met Karpe Noktem uit te puffen.
 </dd>
