@@ -19,7 +19,7 @@ function humane_enum(a) {
 }
 
 function lustrum_countDown_tick() {
-	var rms = (new Date(2009, 5, 25) - new Date());
+	var rms = (new Date(2009, 4, 25) - new Date());
 	var neg = rms < 0;
 	rms = neg ? -rms : rms;
 	
