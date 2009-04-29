@@ -59,7 +59,7 @@ def phpstr(s):
 	if isinstance(s, str):
 		# FIXME why the difference?
 		s = unicode(s, 'utf8')
-	ret = '"%s"' % s.encode('latin1')
+	ret = '"%s"' % s.encode('utf8')
 	return ret
 
 def to_config_agenda_php(events):

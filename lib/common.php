@@ -61,6 +61,7 @@ function default_header() {
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <html>
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<?php emit_stylesheets() ?>
 		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
