@@ -8,3 +8,8 @@
 	margin-bottom: 1em;
 	margin-left: 0;
 }
+
+#lustrumAgenda .date {
+       font-style: italic;
+       float: right;
+}

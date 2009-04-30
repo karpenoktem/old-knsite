@@ -2,6 +2,7 @@
 	  include_stylesheet('lustrum');
 	  default_header(); ?>
 <dl id="lustrumAgenda">
+<div class="date">25 mei</div>
 <dt>Maandagavond &mdash; borrel</dt>
 <dd>
 Een maandagavondborrel als alle andere &mdash; alleen zullen deze keer
@@ -12,6 +13,7 @@ aanwezig zijn.  Uiteraard geldt op deze borrel het gebruikelijke bartarief en
 -aanbod van ASV Karpe Noktem.
 </dd>
 
+<div class="date">26 mei</div>
 <dt>Dinsdagavond &mdash; eten met leden</dt>
 <dd>
 In het gebouw van Scouting Traianus Nijmegen zal onze allereerste offici&euml;le
@@ -25,6 +27,7 @@ tot het opwarmen van je gerecht.  Na het voedselfestijn is er ruim tijd om uit t
 buiken en na te genieten!
 </dd>
  
+<div class="date">27 mei</div>
 <dt>Woensdagmiddag &mdash; spelen en relaxen in Park Brakkenstein</dt>
 <dd>
 Na de zware maaltijd van dinsdagavond moeten al die extra calorie&euml;n er
@@ -37,6 +40,7 @@ tafelkleden, limonade, enzovoorts.  De LustrumCie zal zorgen voor bier, fris
 en wijn.
 </dd>
 
+<div class="date">28 mei</div>
 <dt>Donderdagavond &mdash; het eerste lustrumfeest in de Villa</dt>
 <dd>
 <img src="<?php echo curi('img/myrkvar.jpg'); ?>" class="right" />
@@ -52,6 +56,7 @@ kunnen bezoek verwachten uit alle hoeken en gaten van Nederland.  Consumpties
 zullen 1 euro bedragen, zoals jullie van Karpe Noktem gewend zijn.
 </dd>
  
+<div class="date">29 mei</div>
 <dt>Vrijdagavond &mdash; filmavond</dt>
 <dd>
 Na een vermoeiende donderdagavond is het tijd voor rust en recreatie.  Daarom
