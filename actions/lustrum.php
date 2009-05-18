@@ -5,6 +5,7 @@
 <div class="date">25 mei</div>
 <dt>Maandagavond &mdash; borrel</dt>
 <dd>
+<img src="<?php echo curi('img/lustrum-maandag.jpg'); ?>" class="left" />
 Een maandagavondborrel als alle andere &mdash; alleen zullen deze keer
 oud-bestuursleden om 22:00 een presentatie geven!  De ex-voorzitters
 Giedo Jansen, Alette Ouwens en Bram Balk vertellen over de vroegste tijden
