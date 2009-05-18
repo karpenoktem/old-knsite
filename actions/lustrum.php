@@ -61,6 +61,7 @@ zullen 1 euro bedragen, zoals jullie van Karpe Noktem gewend zijn.
 <div class="date">29 mei</div>
 <dt>Vrijdagavond &mdash; filmavond</dt>
 <dd>
+<img src="<?php echo curi('img/lustrum5-vrijdag.jpg'); ?>" class="left" />
 Na een vermoeiende donderdagavond is het tijd voor rust en recreatie.  Daarom
 zullen we ons vrijdagavond verzamelen in cafe 't Haantje om daar relaxed te
 genieten van een film die jullie zelf mogen kiezen via de poll op onze site!  Alle
