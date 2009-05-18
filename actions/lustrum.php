@@ -17,7 +17,6 @@ aanwezig zijn.  Uiteraard geldt op deze borrel het gebruikelijke bartarief en
 <div class="date">26 mei</div>
 <dt>Dinsdagavond &mdash; eten met leden</dt>
 <dd>
-<img src="<?php echo curi('img/lustrum5-dinsdag.jpg'); ?>" class="right" />
 In het gebouw van Scouting Traianus Nijmegen zal onze allereerste offici&euml;le
 'eten met leden'-activiteit plaatsvinden.  Tijdens deze megapicknick neemt ieder
 lid een maaltijd mee om te delen met zijn of haar medeleden, die op hun beurt ook
@@ -32,6 +31,7 @@ buiken en na te genieten!
 <div class="date">27 mei</div>
 <dt>Woensdagmiddag &mdash; spelen en relaxen in Park Brakkenstein</dt>
 <dd>
+<img src="<?php echo curi('img/lustrum5-woensdag.jpg'); ?>" class="left" />
 Na de zware maaltijd van dinsdagavond moeten al die extra calorie&euml;n er
 natuurlijk wel weer vanaf (of niet).  Daarom gaan we 's woensdags naar Park
 Brakkenstein om daar in de middagzon te genieten van enkele sportieve activiteiten
