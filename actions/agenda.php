@@ -6,6 +6,7 @@
 Geen lid, maar wel op de hoogte blijven van onze activiteiten?
 Zet jezelf op de geinteresseerden e-mail lijst:</p>
 <p><?php echo interested_form(); ?></p>
+<?php if(is_array($cfg['agenda'])) { ?>
 <ul id="fullagenda">
 	<?php foreach($cfg['agenda'] as $item) { ?>
 	<li><a name="<?php echo $item['key']; ?>"></a>
@@ -14,4 +15,7 @@ Zet jezelf op de geinteresseerden e-mail lijst:</p>
 	<div class="desc"><?php echo $item[4]; ?></div></li>
 	<?php } ?>
 </ul>
+<?php } else { ?>
+	Onze agenda is momenteel stuk. Dit zou zichzelf binnen een uur moeten oplossen. Zo niet kun je mailen met <?php echo email('webcie@karpenoktem.nl'); ?>.
+<?php } ?>
 <?php default_footer(); ?>
