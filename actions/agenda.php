@@ -16,6 +16,9 @@ Zet jezelf op de geinteresseerden e-mail lijst:</p>
 	<?php } ?>
 </ul>
 <?php } else { ?>
-	Onze agenda is momenteel stuk. Dit zou zichzelf binnen een uur moeten oplossen. Zo niet kun je mailen met <?php echo email('webcie@karpenoktem.nl'); ?>.
+<p>Onze agenda is momenteel stuk. Dit zou zichzelf
+binnen een uur moeten oplossen. Zo niet kun je
+mailen met
+<?php echo email('webcie@karpenoktem.nl'); ?>.</p>
 <?php } ?>
 <?php default_footer(); ?>
