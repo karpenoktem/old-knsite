@@ -2,11 +2,14 @@
 	  default_header(); ?>
 <p><em>Door Giedo Janssen, Oprichter van Karpe Noktem</em></p>
 <img src="<?php echo curi('img/giedo.jpg'); ?>" class="left" title="Giedo Janssen" />
-<p>Karpe Noktem is één van de jongste gezelligheidsvereniging van Nijmegen. Het
+<p>Karpe Noktem is &eacute;&eacute;n van de jongste gezelligheidsvereniging
+van Nijmegen. Het
 idee voor de vereniging ontstond in de introductie van 2003. In de aanloop naar
 het daadwerkelijk opstarten van een nieuwe vereniging organiseerde Karpe Noktem
-in april en juni 2004 twee feesten. Een officieus oprichtingsfeest in Café De
-Onderbroek en een Midzomernachtfeest in toenmalig café Gonzo. Twee volle zalen
+in april en juni 2004 twee feesten. Een officieus oprichtingsfeest in
+Caf&eacute; De
+Onderbroek en een Midzomernachtfeest in toenmalig caf&eacute; Gonzo. Twee
+volle zalen
 maakte ons overtuigd van het gene wat we al maanden riepen: er is animo voor een
 alternatieve gezelligheidsvereniging in Nijmegen!</p>
 <p>En zo geschiedde het... In de zomermaanden van 2004 maakt Karpe Noktem zich
@@ -17,7 +20,8 @@ De Onderbroek). Eveneens is Karpe Noktem aanwezig op de informatiemarkt, en
 wordt er die week voor het eerst een begin gemaakt met het werven van leden.
 Na intro wordt de balans opgemaakt, en telt de vereniging zo'n 15 leden.</p>
 <p>Vanaf september 2004 begint Karpe Noktem goed op gang te komen, en
-langzamerhand vorm te krijgen. De twee wekelijkse borrel wordt geïntroduceerd,
+langzamerhand vorm te krijgen. De twee wekelijkse borrel wordt
+ge&iuml;ntroduceerd,
 en de activiteiten krijgen de regelmaat die ze nodig hebben. Na een maand acht
 het bestuur de tijd rijp voor een uitdaging, en wordende kersverse leden
 uitgenodigd voor een weekend in het idyllische Hoenderloo. Het wordt een
