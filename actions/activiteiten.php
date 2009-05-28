@@ -4,7 +4,8 @@
 <p>Karpe Noktem staat bekend om zijn live-acts, zoals Karpe Rockt'em en de 
 bandjesavonden. Daarnaast programmeren we voor leden tal van andere
 activiteiten. Een kleine greep uit voorgaande hoogtepunten: Karpe Rockt'em, De
-nacht van de poëzie, Het jaarlijkse gemaskerd bal &amp; Karpe Noktem weekend.
+nacht van de po&euml;zie, Het jaarlijkse gemaskerd bal &amp; Karpe Noktem
+weekend.
 Ook verzeil je regelmatig in een vreemde stad tijdens onze Roadtrips en feesten
 bij onze zusterverenigingen van het ZEUS-verband.</p>
 <p>Natuurlijk is er elke maandag een gezellige borrel in onze vaste stek, de
