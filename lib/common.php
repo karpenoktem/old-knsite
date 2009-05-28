@@ -1,5 +1,7 @@
 <?php
 
+setlocale(LC_TIME, 'nl_NL');
+
 $page = array('bg' => 'rest',
 			  'stylesheets' => array('bare'),
 			  'title' => '',
@@ -154,7 +156,7 @@ function default_footer() { global $cfg, $page; ?>
 		&copy;2007&mdash;2009, Karpe Noktem<?php
 		if(isset($cfg['release'])) {
 			echo "; <a href='".auri('release')."'>".
-			     date('d M' ,$cfg['release']['date'])."</a>";
+			     strftime('%e %b' ,$cfg['release']['date'])."</a>";
 		}
 		?></div>
 		<!-- Source code? Take a look at the .git dir -->
