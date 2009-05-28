@@ -2,6 +2,13 @@
 
 import os
 import sys
+import locale
+
+try:
+	# Nederlandse afkortingen voor data
+	locale.setlocale(locale.LC_ALL, 'nl_NL')
+except Exception:
+	pass
 
 cmd_H_ct_cn = 'git --no-pager log --pretty="format:%H;%ct;%cn" -n1'
 cmd_tag = 'git --no-pager describe'
