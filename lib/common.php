@@ -150,8 +150,7 @@ function default_footer() { global $cfg, $page; ?>
 		<a href="http://www.google.com/search?q=ie+sucks">brak</a>.
 		Gebruik <a href="http://www.mozilla.com/en-US/firefox/">een</a>
 		open browser voor een beter resultaat.<br/>
-		<![endif]--><a href="<?php echo auri('lustrum'); ?>" 
-			       id="lustrumCountDown"></a><br/>
+		<![endif]-->
 		&copy;2007&mdash;2009, Karpe Noktem<?php
 		if(isset($cfg['release'])) {
 			echo "; <a href='".auri('release')."'>".
