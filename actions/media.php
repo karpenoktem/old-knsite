@@ -1,6 +1,9 @@
 <?php set_title('Media');
       default_header(); ?>
 <ul>
+	<li><strong>Nieuw</strong> de
+	<a href="http://www.youtube.com/watch?v=NLOT1TkZTf4">video</a>
+	van campustv van onze nachtpicknick.</li>
 	<li><a href="http://karpenoktem.nl/fotos/"
 	     >Fotos van Karpe Noktem</a> en</li>
 	<li><a href="http://karpenoktem.nl/fotos/index.php?album=pdn"
