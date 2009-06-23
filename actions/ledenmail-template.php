@@ -2,6 +2,9 @@
       unsafe_emails();
       require_once('lib/agenda.php'); ?>
 <html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	</head>
 	<body>
 	<ul>
 	<?php foreach($cfg['agenda'] as $item) { ?>
