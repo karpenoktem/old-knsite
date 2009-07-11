@@ -13,6 +13,6 @@ mailen met <?php echo email('webcie@karpenoktem.nl'); ?>.</p>
 <p>Kerstkaarten, uitnodigingen, rekeningen en alle andere zaken kunt
 u sturen naar:</p>
 <blockquote>ASV Karpe Noktem<br/>
-Van Schaeck Mathonsingel 10<br/>
-6512 AP Nijmegen</blockquote>
+Postbus 1221<br/>
+6501BE Nijmegen </blockquote>
 <?php default_footer(); ?>
