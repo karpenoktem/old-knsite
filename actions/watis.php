@@ -6,7 +6,7 @@ traditionele verenigingen aangetrokken voelt. Wij brengen HBO- en WO-studenten
 op een ongedwongen manier samen. De meeste  verenigingen eisen van nieuwe leden
 een ontgroening en jarenlange aanwezigheidsplicht. Karpe Noktem wil vooral veel
 bieden: concerten voor de muziekfreaks, roadtrips voor de avonturiers, ledenblad
-Akta Nokturna voor fotograven en literair talent, poker voor de gokkers en een
+Akta Nokturna voor fotografen en literair talent, poker voor de gokkers en een
 wekelijkse borrel voor de stamgasten.</p>
 <p>Bij Karpe Noktem maken de leden de vereniging.  We bieden vrijwel constant
 activiteiten aan die door actieve leden zijn georganiseerd. Daardoor blijft
