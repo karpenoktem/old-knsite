@@ -111,8 +111,8 @@ function emit_menu() { global $page; ?>
 						>Contact</a></li>
 					<li><a href="<?php echo auri('lidworden') ?>"
 						>Lid worden</a></li>
-					<li><a href="<?php echo auri('lustrum') ?>"
-						>Lustrum</a></li>
+					<li><a href="<?php echo auri('intro2009') ?>"
+						>Intro</a></li>
 				</ul>
 				<li><a href="<?php echo auri('agenda') ?>"
 				    >Agenda</a></li>
