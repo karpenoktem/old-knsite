@@ -12,7 +12,7 @@ van de vereniging gegrepen: jong, eigenzinnig en ruimdenkend.
 door de maalstroom van het Nijmeegs studentenleven &mdash; altijd op koers
 door het houvast van <em>Bas Westerbaan</em> ('88), student Wiskunde &mdash;
 nooit zonder middelen door, de klassiek geschoolde, <em>Hugo van Versendaal</em>
- ('85), student Grieks en Latijn &mdash; nimmer zonder bondgenoten met,
+ ('85), student Grieks en Latijn &mdash; nimmer verlegen van bondgenoten met,
 aller vriend, <em>Mike Lighthart</em> ('88), student Scheikende en stevig
 gehuisvest en van alle gemakken voorzien door <em>Rik Sprenkels</em> ('88),
 student Filosofie en Scheikunde.</p>
