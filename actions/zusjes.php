@@ -11,7 +11,6 @@ dat bestaat uit zeven leden; de verenigingen
 <li><a href="http://www.vslcatena.nl/">Catena</a> uit Leiden,</li>
 <li><a href="http://www.cleopatra-groningen.nl/">Cleopatra</a>
 	uit Groningen,</li>
-<li><a href="http://www.sv-cyclades.nl/">Cyclades</a> uit Amsterdam,</li>
 <li><a href="http://www.wolbodo.nl/">Wolbodo</a> uit Delft en</li>
 <li><a href="http://www.wolweze.nl/">Wolw&ecirc;ze</a> uit Leeuwarden.</li>
 </ul>
