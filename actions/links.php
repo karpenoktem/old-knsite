@@ -2,6 +2,7 @@
       default_header(); ?>
 	<p>Karpe Noktem op</p>
 	<ul>
+		<li><a href="http://www.last.fm/group/Karpe+Noktem">Last.fm</a>,</li>
 		<li><a href="http://karpenoktem.hyves.nl/">Hyves</a>,</li>
 		<li><a href="http://www.youtube.com/KarpeNoktem"
 		>YouTube</a> (video's),</li>
