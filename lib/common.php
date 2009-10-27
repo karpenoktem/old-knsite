@@ -162,6 +162,7 @@ function default_footer() { global $cfg, $page; ?>
 			     strftime('%e %b' ,$cfg['release']['date'])."</a>";
 		}
 		?></div>
+		</div>
 		<!-- Source code? Take a look at the .git dir -->
 		<script type="text/javascript">
 			common_init();
