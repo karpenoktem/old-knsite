@@ -140,7 +140,7 @@ function emit_menu() { global $page; ?>
 				<li><a href="<?php echo auri('zusjes') ?>"
 					>Zusjes</a></li>
 				</ul></li>
-			<ul>
+			</ul>
 			<?php
 }
 
