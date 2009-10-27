@@ -61,12 +61,11 @@ function default_header() {
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<?php emit_stylesheets() ?>
 		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
-		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 		<?php if(!$page['bare']) { ?>
 		<style type="text/css">
 			#main { background-image: url(<?php echo curi("img/bgs/$img"); ?>); }
@@ -97,7 +96,7 @@ function emit_menu() { global $page; ?>
 			<ul id="menu">
 				<li><a href="<?php echo auri('home'); ?>">Beginpagina</a></li>
 				<li><a href="<?php echo auri('watis') ?>"
-					>Over ons</a></li>
+					>Over ons</a>
 				<ul>
 					<li><a href="<?php echo auri('watis') ?>"
 						>Wat is <abbr title="Karpe Noktem">KN</abbr>?</a></li>
@@ -113,34 +112,34 @@ function emit_menu() { global $page; ?>
 						>Lid worden</a></li>
 					<li><a href="<?php echo auri('intro2009') ?>"
 						>Intro</a></li>
-				</ul>
+				</ul></li>
 				<li><a href="<?php echo auri('agenda') ?>"
 				    >Agenda</a></li>
-				<li><a href="<?php echo auri('media') ?>">Fotos/videos</a></li>
+				<li><a href="<?php echo auri('media') ?>">Fotos/videos</a>
 				<ul>
 					<li><a href="http://karpenoktem.nl/fotos/">Karpe Noktem</a></li>
 					<li><a href="http://karpenoktem.nl/fotos/index.php?album=pdn">Pluk de Nacht</a></li>
 					<li><a href="<?php echo auri('media') ?>"
 						>...meer</a></li>
-				</ul>
-				<li>Leden</li>
+				</ul></li>
+				<li>Leden
 				<ul>
 					<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
 					<li><a href="<?php echo auri('smoelen') ?>">Smoelenboek</a></li>
-				</ul>
+				</ul></li>
 				<li><a href="<?php echo auri('merchandise') ?>"
 						>Merchandise</a></li>
-				<li>Downloaden</li>
+				<li>Downloaden
 				<ul>
 					<li><a href="<?php echo auri('an') ?>"
 						>Akta Nokturna</a></li>
-				</ul>
+				</ul></li>
 				<li><a href="<?php echo auri('links') ?>"
-					>Links</a></li>
+					>Links</a>
 				<ul>
 				<li><a href="<?php echo auri('zusjes') ?>"
 					>Zusjes</a></li>
-				</ul>
+				</ul></li>
 			<ul>
 			<?php
 }
