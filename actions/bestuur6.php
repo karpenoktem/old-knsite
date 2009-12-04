@@ -14,7 +14,7 @@ onvervaard door de maalstroom van het Nijmeegs studentenleven &mdash; altijd op
 &mdash;
 nooit zonder middelen door, de klassiek geschoolde, <em>Hugo van Versendaal</em>
  ('85), student Grieks en Latijn &mdash; nimmer verlegen van bondgenoten met,
-aller vriend, <em>Mike Lighthart</em> ('88), student Scheikunde en stevig
+aller vriend, <em>Mike Ligthart</em> ('88), student Scheikunde en stevig
 gehuisvest en van alle gemakken voorzien door <em>Rik Sprenkels</em> ('88),
 student Filosofie en Scheikunde.</p>
 <p>&lArr; Het vorige,
