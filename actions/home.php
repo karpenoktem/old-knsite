@@ -16,7 +16,7 @@
 				}
 			?>
 				<li><div class="title"><a href="<?php echo auri('agenda', '', $item['key']); ?>"><?php echo $item[0]; ?></a></div>
-				    <div class="desc"><?php echo $item[1]; ?></div>
+				    <div class="desc"><?php echo $item[1]; ?></div></li>
 				<?php } ?>
 			</ul>
 <?php } default_footer(); ?>

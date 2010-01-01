@@ -60,13 +60,12 @@ function default_header() {
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<?php emit_stylesheets() ?>
 		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
-		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 		<?php if(!$page['bare']) { ?>
 		<style type="text/css">
 			#main { background-image: url(<?php echo curi("img/bgs/$img"); ?>); }
@@ -78,6 +77,7 @@ function default_header() {
 		<title>ASV Karpe Noktem <?php
 			if(!empty($page['title'])) { ?>- <?php echo $page['title']; } 
 		?></title>
+		<meta name="google-site-verification" content="l0qIUe2C4DlhszFe3hyN3f26uMMLNL9-VPqErQBa-fY" />
 	</head>
 	<body>
 		<div id="wrapper">
@@ -97,7 +97,7 @@ function emit_menu() { global $page; ?>
 			<ul id="menu">
 				<li><a href="<?php echo auri('home'); ?>">Beginpagina</a></li>
 				<li><a href="<?php echo auri('watis') ?>"
-					>Over ons</a></li>
+					>Over ons</a>
 				<ul>
 					<li><a href="<?php echo auri('watis') ?>"
 						>Wat is <abbr title="Karpe Noktem">KN</abbr>?</a></li>
@@ -113,31 +113,35 @@ function emit_menu() { global $page; ?>
 						>Lid worden</a></li>
 					<li><a href="<?php echo auri('intro2009') ?>"
 						>Intro</a></li>
-				</ul>
+				</ul></li>
 				<li><a href="<?php echo auri('agenda') ?>"
 				    >Agenda</a></li>
-				<li><a href="<?php echo auri('media') ?>">Fotos/videos</a></li>
+				<li><a href="<?php echo auri('media') ?>">Fotos/videos</a>
 				<ul>
 					<li><a href="http://karpenoktem.nl/fotos/">Karpe Noktem</a></li>
 					<li><a href="http://karpenoktem.nl/fotos/index.php?album=pdn">Pluk de Nacht</a></li>
 					<li><a href="<?php echo auri('media') ?>"
 						>...meer</a></li>
-				</ul>
-				<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
+				</ul></li>
+				<li>Leden
+				<ul>
+					<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
+					<li><a href="<?php echo auri('smoelen') ?>">Smoelenboek</a></li>
+				</ul></li>
 				<li><a href="<?php echo auri('merchandise') ?>"
 						>Merchandise</a></li>
-				<li>Downloaden</li>
+				<li>Downloaden
 				<ul>
 					<li><a href="<?php echo auri('an') ?>"
 						>Akta Nokturna</a></li>
-				</ul>
+				</ul></li>
 				<li><a href="<?php echo auri('links') ?>"
-					>Links</a></li>
+					>Links</a>
 				<ul>
 				<li><a href="<?php echo auri('zusjes') ?>"
 					>Zusjes</a></li>
-				</ul>
-			<ul>
+				</ul></li>
+			</ul>
 			<?php
 }
 
@@ -147,7 +151,21 @@ function default_footer() { global $cfg, $page; ?>
 			<?php emit_menu(); ?>
 			<?php } ?>
 		</div>
-		<div id="footer"><!--[if IE]>
+		<div id="footer">
+		<div>
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-2452416322258613";
+		/* 728x15, gemaakt 4-12-09 */
+		google_ad_slot = "9951877781";
+		google_ad_width = 728;
+		google_ad_height = 15;
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+		</div>
+		<!--[if IE]>
 		Internet Explorer is 
 		<a href="http://www.google.com/search?q=ie+sucks">brak</a>.
 		Gebruik <a href="http://www.mozilla.com/en-US/firefox/">een</a>
@@ -159,10 +177,20 @@ function default_footer() { global $cfg, $page; ?>
 			     strftime('%e %b' ,$cfg['release']['date'])."</a>";
 		}
 		?></div>
+		</div>
 		<!-- Source code? Take a look at the .git dir -->
 		<script type="text/javascript">
 			common_init();
 		</script>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-11922614-1");
+			pageTracker._trackPageview();
+		} catch(err) {}</script>
 	</body>
 </html> <?php
 }
