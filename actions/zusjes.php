@@ -4,7 +4,7 @@
 Behalve Karpe Noktem zijn er nog heel veel andere alternatieve
 studentenverenigingen, in heel Nederland!  Deze vormen samen het
 zusterverband ZEUS (dit staat voor Zusterlijke Eenheid Uit Saamhorigheid),
-dat bestaat uit vijf leden; de verenigingen
+dat bestaat uit zes leden; de verenigingen
 </p>
 <ul>
 <li><a href="http://www.biton.nl/">B.I.T.O.N.</a> uit Utrecht,</li>
