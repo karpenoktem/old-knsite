@@ -1,3 +1,12 @@
+#shortagenda {
+	float: right;
+	padding: 5px;
+	background-color: #300;
+	margin: 0 0 0 10px;
+	list-style: none;
+	border: 1px solid #800100;
+}
+
 #fullagenda {
 	padding-left: 0;
 	margin-left: 0;

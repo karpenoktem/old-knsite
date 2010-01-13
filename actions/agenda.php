@@ -2,6 +2,14 @@
 	  include_stylesheet('agenda');
 	  require_once('lib/agenda.php');
 	  default_header(); ?>
+<?php if(is_array($cfg['agenda'])) { ?>
+<ul id="shortagenda">
+	<?php foreach($cfg['agenda'] as $item) { ?>
+	<li><a href="#<?php echo $item['key']; ?>"
+		><?php echo $item[1]; ?>: <?php echo $item[3]; ?></a></li>
+	<?php } ?>
+</ul>
+<?php } ?>
 <p><a href="http://www.google.com/calendar/embed?src=vssp95jliss0lpr768ec9spbd8%40group.calendar.google.com&ctz=Europe/Paris">Ook op Google Calendar</a>.
 Geen lid, maar wel op de hoogte blijven van onze activiteiten?
 Zet jezelf op de geinteresseerden e-mail lijst:</p>
