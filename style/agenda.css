@@ -7,6 +7,14 @@
 	border: 1px solid #800100;
 }
 
+#shortagenda a {
+	text-decoration: none;
+}
+#shortagenda a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
 #fullagenda {
 	padding-left: 0;
 	margin-left: 0;
