@@ -96,6 +96,8 @@ function default_header() {
 function emit_menu() { global $page; ?>
 			<ul id="menu">
 				<li><a href="<?php echo auri('home'); ?>">Beginpagina</a></li>
+				<li><a href="<?php echo auri('agenda') ?>"
+				    >Agenda</a></li>
 				<li><a href="<?php echo auri('watis') ?>"
 					>Over ons</a>
 				<ul>
@@ -112,8 +114,6 @@ function emit_menu() { global $page; ?>
 					<li><a href="<?php echo auri('lidworden') ?>"
 						>Lid worden</a></li>
 				</ul></li>
-				<li><a href="<?php echo auri('agenda') ?>"
-				    >Agenda</a></li>
 				<li><a href="<?php echo auri('media') ?>">Fotos/videos</a>
 				<ul>
 					<li><a href="http://karpenoktem.nl/fotos/">Karpe Noktem</a></li>
