@@ -151,21 +151,7 @@ function default_footer() { global $cfg, $page; ?>
 			<?php emit_menu(); ?>
 			<?php } ?>
 		</div>
-		<div id="footer">
-		<div>
-		<script type="text/javascript"><!--
-		google_ad_client = "pub-2452416322258613";
-		/* 728x15, gemaakt 4-12-09 */
-		google_ad_slot = "9951877781";
-		google_ad_width = 728;
-		google_ad_height = 15;
-		//-->
-		</script>
-		<script type="text/javascript"
-		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-		</script>
-		</div>
-		<!--[if IE]>
+		<div id="footer"><!--[if IE]>
 		Internet Explorer is 
 		<a href="http://www.google.com/search?q=ie+sucks">brak</a>.
 		Gebruik <a href="http://www.mozilla.com/en-US/firefox/">een</a>
