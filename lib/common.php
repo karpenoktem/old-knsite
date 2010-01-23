@@ -116,7 +116,7 @@ function emit_menu() { global $page; ?>
 				</ul></li>
 				<li><a href="<?php echo auri('media') ?>">Fotos/videos</a>
 				<ul>
-					<li><a href="http://karpenoktem.nl/fotos/">Foto gallerij</a></li>
+					<li><a href="http://karpenoktem.nl/fotos/">Fotogallerij</a></li>
 					<li><a href="http://karpenoktem.nl/fotos/index.php?album=pdn">Pluk de Nacht</a></li>
 				</ul></li>
 				<li>Leden
