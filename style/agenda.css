@@ -38,6 +38,6 @@
 	color: white;
 }
 
-#fullagenda li {
+#fullagenda > li {
 	margin-bottom: 1em;
 }
