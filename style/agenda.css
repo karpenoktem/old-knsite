@@ -5,6 +5,7 @@
 	margin: 0 0 0 10px;
 	list-style: none;
 	border: 1px solid #800100;
+	width: 50%;
 }
 
 #shortagenda a {
@@ -16,9 +17,11 @@
 }
 
 #fullagenda {
+	clear: both;
 	padding-left: 0;
 	margin-left: 0;
 	list-style: none;
+	padding-top: 1em;
 }
 
 #fullagenda .desc {

@@ -2,6 +2,7 @@
 	  include_stylesheet('agenda');
 	  require_once('lib/agenda.php');
 	  default_header(); ?>
+<div id="agendaHeader">
 <?php if(is_array($cfg['agenda'])) { ?>
 <ul id="shortagenda">
 	<?php foreach($cfg['agenda'] as $item) { ?>
@@ -14,6 +15,7 @@
 Geen lid, maar wel op de hoogte blijven van onze activiteiten?
 Zet jezelf op de geinteresseerden e-mail lijst:</p>
 <p><?php echo interested_form(); ?></p>
+</div>
 <?php if(is_array($cfg['agenda'])) { ?>
 <ul id="fullagenda">
 	<?php foreach($cfg['agenda'] as $item) { ?>
