@@ -2,3 +2,4 @@
 User-agent: *
 Disallow: /site/js/common.js
 Disallow: /archief/
+Disallow: /fotos/
