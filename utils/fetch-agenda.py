@@ -80,7 +80,6 @@ def to_config_agenda_php(events):
 		else: o.write(',\n')
 		if content == None: content = ""
 		title = title.replace('"', '\\"')
-		title = title.replace("'", "\\'")
 		content = content.replace('"', '\\"')
 		content = content.replace("\n", "<br/>")
 		content = erepl.sub("\".email('\\1').\"", content)
