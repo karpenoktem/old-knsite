@@ -4,3 +4,4 @@ Disallow: /site/js/common.js
 Disallow: /archief/
 Disallow: /fotos/
 Disallow: /~bas/
+Disallow: /mailman/archives/
