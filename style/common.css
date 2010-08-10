@@ -59,13 +59,6 @@ a:hover {
         border-top: 1px solid #800100;
 }
 
-#footer {
-	background-image: url(../img/uiltje.jpg);
-	background-position: 100% 20px;
-	height: 130px;
-	background-repeat: no-repeat;
-}
-
 .imageDisplay img {
 	padding: 0;
 	margin: 0;
