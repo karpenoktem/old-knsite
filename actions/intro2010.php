@@ -56,7 +56,7 @@ Een introductie is druk: veel nieuwe mensen, kamers en kroegen.  Karpe Noktem
 laat jou uitwaaien tijdens de AKWA, de Anti Kater Wander Acitiviteit.  Naast
 al die tenten in de binnenstad, zie je ook nog eens de mooie natuur rondom
 Nijmegen.<br/>
-<em class="footer">Verzamelen met fiets om 12:30 voor het Gymnasium</em>
+<em class="footer">Verzamelen met fiets om 12:30 voor het Gymnasion</em>
 </dd>
 
 <div class="date">maandag 23 aug</div>
