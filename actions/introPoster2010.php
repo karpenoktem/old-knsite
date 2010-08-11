@@ -3,7 +3,7 @@
 	  bare_page();
 	  default_header(); ?>
 <a href="<?php echo auri('intro2010'); ?>" title="Naar de website" />
-     <img src="<?php echo curi('img/introposter2010.png'); ?>"
+     <img src="<?php echo curi('img/introposter2010-3.png'); ?>"
 	  alt="Intro Poster 2010. Klik hier om verder te gaan naar de website"
 	  title="Intro Poster 2010" 
 	  class="boilerplate" /></a>
