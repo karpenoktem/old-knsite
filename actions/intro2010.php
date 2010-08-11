@@ -66,7 +66,7 @@ Een gezellige barbecue met vlees van een biologische slager en dat proef je!
 Ook voor vega's hebben wij van alles wat.<br/>
 Meld je aan door te e-mailen naar <?php email('eet@karpenoktem.nl') ?>, of
 (voor leden) naar <a href="http://karpenoktem.nl/activiteit/introbbq-20100823"
->deze pagina</a> te gaan. Kosten: &euro; 6.<br/>
+>deze pagina</a> te gaan. Deadline aanmelden: donderdag 13:00. Kosten: &euro; 6.<br/>
 <em class="footer">17:00 in de achtertuin van de
 <a href="<?php echo auri('route'); ?>">Villa van Schaeck</a></em>
 </dd>
