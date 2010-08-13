@@ -2,6 +2,7 @@
 	  include_stylesheet('intro2010');
 	  default_header(); ?>
 <dl id="introAgenda">
+<img src="<?php echo curi('img/intro2010flyer2a.png'); ?>" class="right" />
 <div class="date">maandag 16 aug</div>
 <dt>Pubquiz</dt>
 <dd>
@@ -21,6 +22,8 @@ zalen met verschillende DJ's is er voor ieders wil wat.<br/>
 <em class="footer">22:00 in de <a href="<?php auri('route'); ?>">Villa van Schaeck</a>.
 Entr&eacute;e &euro; 3</em>
 </dd>
+
+<div style="clear: both" />
 
 <img src="<?php echo curi('img/intro2010flyer2v.png'); ?>" class="left" />
 <div class="date">woensdag 18 aug</div>
