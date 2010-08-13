@@ -12,7 +12,6 @@ test je nutteloze kennis en win die felbegeerde prijs!<br/>
 </dd>
 
 
-<img src="<?php echo curi('img/intro2010flyer2v.png'); ?>" class="left" />
 <div class="date">dinsdag 17 aug</div>
 <dt>Villa Live</dt>
 <dd>
@@ -23,6 +22,7 @@ zalen met verschillende DJ's is er voor ieders wil wat.<br/>
 Entr&eacute;e &euro; 3</em>
 </dd>
 
+<img src="<?php echo curi('img/intro2010flyer2v.png'); ?>" class="left" />
 <div class="date">woensdag 18 aug</div>
 <dt>Karpe Intr'Rock</dt>
 <dd>
@@ -36,6 +36,18 @@ avond van jouw introductie.<br/>
 <em class="footer">21:00 in de 
 <a href="<?php echo auri('route'); ?>">Villa van Schaeck</a>; 
  Entr&eacute;e &euro; 3; bier, fris en wijn voor slechts één euro</em>
+</dd>
+
+<div class="date">donderdag 19 aug</div>
+<dt>Beestfeest</dt>
+<dd>
+Geen zin in het vijf-verenigingen feest?  Kom dan naar het Beestfeest
+van de betastudiekoepelvereniging Olympus!  Zoals gebruikelijk maken
+onze huis-DJ's er een feest van in de kleine zaal.  Jesper draait voor
+de laatste keer op Beestfeest – rede te meer om deze Beestfeest niet
+te missen!
+<em class="footer">21:30 in Doornroosje, Groenewouseweg 332.  Tip:
+sta 20:30 al in de rij</em>
 </dd>
 
 <img src="<?php echo curi('img/intro2010flyer1v.png'); ?>" class="right" />
