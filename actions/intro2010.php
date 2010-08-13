@@ -12,6 +12,7 @@ test je nutteloze kennis en win die felbegeerde prijs!<br/>
 </dd>
 
 
+<img src="<?php echo curi('img/intro2010flyer2v.png'); ?>" class="left" />
 <div class="date">dinsdag 17 aug</div>
 <dt>Villa Live</dt>
 <dd>
@@ -37,6 +38,7 @@ avond van jouw introductie.<br/>
  Entr&eacute;e &euro; 3; bier, fris en wijn voor slechts één euro</em>
 </dd>
 
+<img src="<?php echo curi('img/intro2010flyer1v.png'); ?>" class="right" />
 <div class="date">zondag 22 aug</div>
 <dt>Spelletjesavond</dt>
 <dd>
@@ -59,6 +61,7 @@ Nijmegen.<br/>
 <em class="footer">Verzamelen met fiets om 12:30 voor het Gymnasion</em>
 </dd>
 
+<img src="<?php echo curi('img/intro2010flyer1a.png'); ?>" class="left" />
 <div class="date">maandag 23 aug</div>
 <dt>BBQ</dt>
 <dd>
