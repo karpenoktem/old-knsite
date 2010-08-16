@@ -9,7 +9,8 @@
 Na het grote succes van vorig jaar alweer een pubquiz in de intro!  Onze
 Quizmasters hebben weer een briljante quiz voor ons in petto.  Doe mee,
 test je nutteloze kennis en win die felbegeerde prijs!<br/>
-<em class="footer">20:30 in Café de Fiets, Grotestraat 8</em>
+<em class="footer">20:30 in de kelder van <strong>Tio Pepe, Bloemerstraat 82
+</strong></em>
 </dd>
 
 
