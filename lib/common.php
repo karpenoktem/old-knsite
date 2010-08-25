@@ -98,8 +98,6 @@ function emit_menu() { global $page; ?>
 				<li><a href="<?php echo auri('home'); ?>">Beginpagina</a></li>
 				<li><a href="<?php echo auri('agenda') ?>"
 				    >Agenda</a></li>
-				<li><a href="<?php echo auri('intro2010') ?>"
-					>Introductie 2010</a>
 				<li><a href="<?php echo auri('watis') ?>"
 					>Over ons</a>
 				<ul>
