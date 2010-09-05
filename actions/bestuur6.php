@@ -1,4 +1,4 @@
-<?php set_title('Bestuur');
+<?php set_title('Zesde Bestuur');
       default_header(); ?>
 <p class="imageDisplay">
 	<img src="<?php echo curi('img/bestuur6.jpg');?>" />
@@ -18,5 +18,7 @@ aller vriend, <em>Mike Ligthart</em> ('88), student Scheikunde en stevig
 gehuisvest en van alle gemakken voorzien door <em>Rik Sprenkels</em> ('88),
 student Filosofie en Scheikunde.</p>
 <p>&lArr; Het vorige,
-<a href="<?php echo auri('bestuur5'); ?>">vijfde bestuur</a>.</p>
+<a href="<?php echo auri('bestuur5'); ?>">vijfde bestuur</a>; 
+het volgende,
+<a href="<?php echo auri('bestuur7'); ?>">zevende bestuur</a> &rArr;</p>
 <?php default_footer(); ?>
