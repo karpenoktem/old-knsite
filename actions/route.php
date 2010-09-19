@@ -2,7 +2,7 @@
 	  default_header(); ?>
 <p>Meestal zitten we in de Villa van Schaeck. Op maandagen in de kelder, en op
 vrijdagen de borrelruimte. De Villa ligt rechts aan de directe weg van het
-Keizer Karel plein naar het Centraal Station.</p>
+Keizer Karelplein naar het Centraal Station.</p>
 <address>Villa van Schaeck<br/>
 Van Schaeck Mathonsingel 10<br/>
 Nijmegen</address>
