@@ -1,8 +1,8 @@
 <?php set_title('Contact');
 	  default_header(); ?>
-<p>Heeft u een vraag? Kunnen wij u helpen? De voorzitter houdt iedere dag
-spreekuur - alleen op afspraak, tenminste 1 dag van tevoren gemeld via
-<?php echo email('voorzitter@karpenoktem.nl'); ?> - tijdens de pauze.</p>
+<p>Heeft u een vraag? Kunnen wij u helpen? Maak een afspraak
+met de voorzitter &mdash; 
+<?php echo email('voorzitter@karpenoktem.nl'); ?>.</p>
 <p>Voor verzoeken, aanbiedingen en andere dingen van algemene zaken kunt u
 zich wenden tot Secretaris: 
 <?php echo email('secretaris@karpenoktem.nl'); ?></p>
