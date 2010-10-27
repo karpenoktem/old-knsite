@@ -148,8 +148,7 @@ function default_footer() { global $cfg, $page; ?>
 			<?php } ?>
 		</div>
 		<div id="footer"><!--[if IE]>
-		Internet Explorer is 
-		<a href="http://www.google.com/search?q=ie+sucks">brak</a>.
+		Internet Explorer is moeilijk te ondersteunen.
 		Gebruik <a href="http://www.mozilla.com/en-US/firefox/">een</a>
 		open browser voor een beter resultaat.<br/>
 		<![endif]-->
