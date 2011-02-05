@@ -153,7 +153,7 @@ function default_footer() { global $cfg, $page; ?>
 		Gebruik <a href="http://www.mozilla.com/en-US/firefox/">een</a>
 		open browser voor een beter resultaat.<br/>
 		<![endif]-->
-		&copy;2007&mdash;2010, Karpe Noktem<?php
+		&copy;2007&mdash;2011, Karpe Noktem<?php
 		if(isset($cfg['release'])) {
 			echo "; <a href='".auri('release')."'>".
 			     strftime('%e %b' ,$cfg['release']['date'])."</a>";
