@@ -7,7 +7,7 @@ de nijmeegse *Alternatieve Studentenvereniging Karpe Noktem*. Deze
 website is begonnen als een volledige herziening, ontworpen en
 uitgevoerd door *Mirjam Hengeveld* en *Bas Westerbaan* in December 2007.
 
-Vanaf het begin is deze website bedoelt als een tussenoplossing.  Het plan is
+Vanaf het begin is deze website bedoeld als een tussenoplossing.  Het plan is
 het algemene publieke deel van de website op termijn ook op te nemen in de
 `algemene infrastructuur <http://github.com/karpenoktem/kninfra>`_.
 
