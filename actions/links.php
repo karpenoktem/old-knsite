@@ -8,9 +8,7 @@
 		>YouTube</a> (video's),</li>
 		<li><a href="http://www.flickr.com/photos/12267979@N04/"
 		>Flickr</a> (oude foto's: <a href="http://karpenoktem.nl/fotos"
-		>hier</a> staan de nieuwe),</li>
-		<li>en <a href="http://nl.wikipedia.org/wiki/Karpe_Noktem"
-		>Wikipedia</a>.</li>
+		>hier</a> staan de nieuwe).</li>
 	</ul>
 	<p>Maar vergeet niet</p>
 	<ul>
