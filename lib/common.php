@@ -123,6 +123,7 @@ function emit_menu() { global $page; ?>
 				<ul>
 					<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
 					<li><a href="<?php echo auri('smoelen') ?>">Smoelenboek</a></li>
+					<li><a href="http://karpenoktem.nl/groups/leden">Stukken</a></li>
 				</ul></li>
 				<li><a href="<?php echo auri('merchandise') ?>"
 						>Merchandise</a></li>
