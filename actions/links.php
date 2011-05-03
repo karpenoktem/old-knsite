@@ -14,10 +14,11 @@
 		>Flickr</a> (oude foto's: <a href="http://karpenoktem.nl/fotos"
 		>hier</a> staan de nieuwe).</li>
 	</ul>
-	<p>Maar vergeet niet</p>
+	<p>Maar vergeet niet onze</p>
 	<ul>
-		<li><a href="<?php echo auri('zusjes') ?>">Onze zusjes</a>,</li>
-		<li><a href="<?php echo auri('forum') ?>">Forum</a> en</li>
-		<li>onze <a href="http://karpenoktem.nl/wiki">Wiki</a>.</li>
+                <li><a href="<?php echo auri('zusjes') ?>"
+                        >zusjes</a>,</li>
+		<li><a href="<?php echo auri('forum') ?>">forum</a> en</li>
+		<li>onze <a href="http://karpenoktem.nl/wiki">wiki</a>.</li>
 	</ul>
 <?php default_footer(); ?>
