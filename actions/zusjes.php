@@ -8,9 +8,11 @@ dat bestaat uit zes leden; de verenigingen
 </p>
 <ul>
 <li><a href="http://www.biton.nl/">B.I.T.O.N.</a> uit Utrecht,</li>
+<li><a href="http://www.debolk.nl/">de Bolk</a> uit Delft,</li>
 <li><a href="http://www.vslcatena.nl/">Catena</a> uit Leiden,</li>
 <li><a href="http://www.cleopatra-groningen.nl/">Cleopatra</a>
 	uit Groningen,</li>
+<li><a href="http://www.svliber.nl/">Liber</a> uit Amsterdam, </li>
 <li><a href="http://www.wolbodo.nl/">Wolbodo</a> uit Delft en</li>
 <li><a href="http://www.wolweze.nl/">Wolw&ecirc;ze</a> uit Leeuwarden.</li>
 </ul>
