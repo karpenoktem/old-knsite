@@ -119,7 +119,7 @@ function emit_menu() { global $page; ?>
 					<li><a href="http://karpenoktem.nl/fotos/">Fotogalerij</a></li>
 					<li><a href="http://karpenoktem.nl/fotos/index.php?album=pdn">Pluk de Nacht</a></li>
 				</ul></li>
-				<li>Leden
+                                <li><a href="<?php echo auri('smoelen') ?>">Leden</a>
 				<ul>
 					<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
 					<li><a href="<?php echo auri('smoelen') ?>">Smoelenboek</a></li>
