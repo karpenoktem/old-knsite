@@ -5,6 +5,7 @@ setlocale(LC_TIME, 'nl_NL');
 $page = array('bg' => 'rest',
 			  'stylesheets' => array('bare'),
 			  'title' => '',
+                          'unsafe-email' => false,
 			  'bare' => false);
 
 function auri($action, $qs='', $an='') {
