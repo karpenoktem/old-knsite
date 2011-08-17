@@ -3,6 +3,10 @@
 	  default_header(); ?>
 	<p>Hier kunt u de oudere uitgaven van de Akta Nokturna downloaden</p>
 	<ul id="an">
+		<li>Jaargang 8</li>
+		<ul>
+			<li><a href="<?php echo curi('archief/akta25.pdf'); ?>">(Intro) Akta 25</a></li>
+		</ul>
 		<li>Jaargang 7</li>
 		<ul>
 			<li><a href="<?php echo curi('archief/akta20.pdf'); ?>">(Intro) Akta 20</a></li>
