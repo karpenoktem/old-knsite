@@ -1,3 +1,3 @@
 <?php
-header('location: '.auri('bestuur7'));
+header('location: '.auri('bestuur8'));
 ?>

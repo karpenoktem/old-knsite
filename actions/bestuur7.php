@@ -31,5 +31,7 @@ en, voor alle communicatie binnen de Villa van Schaeck,
 <p>Alle bestuursleden zijn bereikbaar op hun functie- of voornaam @karpenoktem.nl.</p>
 
 <p>&lArr; Het vorige,
-<a href="<?php echo auri('bestuur6'); ?>">zesde bestuur</a>.</p>
+<a href="<?php echo auri('bestuur6'); ?>">zesde bestuur</a>; 
+het volgende,
+<a href="<?php echo auri('bestuur8'); ?>">achste bestuur</a> &rArr;</p>
 <?php default_footer(); ?>
