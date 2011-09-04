@@ -2,6 +2,9 @@
       default_header(); ?>
 <p class="imageDisplay">
 	<img src="<?php echo curi('img/bestuur8.jpg');?>" />
+        <small>Van links naar rechts: Sara (vicevoorzitter),
+        Koen (pandcommissaris), Stan (voorzitter), Yurre (secretaris)
+        en Louise (penningmeester)</small>
 </p>
 <p><strong>Het achste bestuur</strong> van A.S.V. Karpe Noktem is typerend
 voor de vereniging &em; divers, eigenzinnig en bovenal enthousiast.
