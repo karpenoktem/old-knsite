@@ -6,13 +6,13 @@
         Koen (pandcommissaris), Stan (voorzitter), Yurre (secretaris)
         en Louise (penningmeester)</small>
 </p>
-<p><strong>Het achste bestuur</strong> van A.S.V. Karpe Noktem is typerend
+<p><strong>Het achtste bestuur</strong> van A.S.V. Karpe Noktem is typerend
 voor de vereniging &em; divers, eigenzinnig en bovenal enthousiast.
 <i>Stan Beekmans</i> ('91, voorzitter), doet de docentenopleiding natuurkunde
 en ziet toe op het reilen en zeilen van de vereniging, daarin bijgestaan
 door <i>Yurre Wieken</i> ('90, secretaris), student politicologie en reeds
 ervaren in het bestuur van koepelvereniging CHECK, <i>Louise Mouthaan</i>
-('92, penningmeester), studente ergotherapie, die toeziet toe op
+('92, penningmeester), studente ergotherapie, die toeziet op de
 financi&euml;n, <i>Sara van Bezooijen</i> ('90, vicevoorzitter),
 studente omgevingswetenschappen, die de externe contacten voor haar rekening
 neemt, en <i>Koen van den Bisen</i> ('88, pandcommissaris), student
