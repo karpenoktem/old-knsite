@@ -33,5 +33,5 @@ en, voor alle communicatie binnen de Villa van Schaeck,
 <p>&lArr; Het vorige,
 <a href="<?php echo auri('bestuur6'); ?>">zesde bestuur</a>; 
 het volgende,
-<a href="<?php echo auri('bestuur8'); ?>">achste bestuur</a> &rArr;</p>
+<a href="<?php echo auri('bestuur8'); ?>">achtste bestuur</a> &rArr;</p>
 <?php default_footer(); ?>
