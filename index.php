@@ -30,7 +30,10 @@ else
 
 $file = "actions/$act.php";
 
-if(!is_file($file)) die("$act: Action doesn't exist");
+if(!is_file($file)) {
+	header('HTTP/1.0 404 Not Found');
+	die("$act: Action doesn't exist");
+}
 
 require_once($file);
 
