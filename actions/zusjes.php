@@ -4,10 +4,9 @@
 studentenverenigingen, in heel Nederland!  Deze vormen samen het
 zusterverband <a href="http://zeusverbond.nl">ZEUS</a> (dit staat voor
 Zusterlijke Eenheid Uit Saamhorigheid),
-dat bestaat uit zeven leden. De verenigingen:
+dat bestaat uit zes verenigingen naast Karpe Noktem; namelijk:
 </p>
 <ul>
-<li><a href="http://www.karpenoktem.nl/">Karpe Noktem</a> uit Nijmegen</li>
 <li><a href="http://www.biton.nl/">B.I.T.O.N.</a> uit Utrecht,</li>
 <li><a href="http://www.debolk.nl/">de Bolk</a> uit Delft,</li>
 <li><a href="http://www.vslcatena.nl/">Catena</a> uit Leiden,</li>
