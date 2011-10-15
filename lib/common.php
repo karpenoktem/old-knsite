@@ -10,7 +10,8 @@ $page = array('bg' => 'rest',
 
 function auri($action, $qs='', $an='') {
 	global $cfg;
-	$r = $cfg['auri'] . $action;
+        $r = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://')
+                                 . $cfg['auri'] . $action;
 	if(!empty($qs)) $r .= '?' . $qs; 
 	if(!empty($an)) $r .= '#' . $an;
 	return $r;
@@ -18,7 +19,8 @@ function auri($action, $qs='', $an='') {
 
 function curi($content) {
 	global $cfg;
-	return $cfg['curi'] . $content;
+        return (isset($_SERVER['HTTPS']) ? 'https://' : 'http://')
+                . $cfg['curi'] . $content;
 }
 
 function emit_stylesheets() {
