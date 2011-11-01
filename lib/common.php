@@ -124,8 +124,9 @@ function emit_menu() { global $page; ?>
 				</ul></li>
                                 <li><a href="<?php echo auri('smoelen') ?>">Leden</a>
 				<ul>
-					<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
 					<li><a href="<?php echo auri('smoelen') ?>">Smoelenboek</a></li>
+					<li><a href="<?php echo auri('wiki') ?>">Wiki</a></li>
+					<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
 					<li><a href="http://karpenoktem.nl/groups/leden">Stukken</a></li>
 				</ul></li>
 				<li><a href="<?php echo auri('merchandise') ?>"
