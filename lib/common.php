@@ -137,6 +137,8 @@ function emit_menu() { global $page; ?>
 				<ul>
 				<li><a href="<?php echo auri('zusjes') ?>"
 					>Zusjes</a></li>
+				<li><a href="<?php echo auri('sponsoren') ?>"
+					>Sponsoren</a></li>
 				</ul></li>
 			</ul>
 			<?php
