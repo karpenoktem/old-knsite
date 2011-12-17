@@ -7,7 +7,7 @@
         en Louise (penningmeester)</small>
 </p>
 <p><strong>Het achtste bestuur</strong> van A.S.V. Karpe Noktem is typerend
-voor de vereniging &em; divers, eigenzinnig en bovenal enthousiast.
+voor de vereniging &mdash; divers, eigenzinnig en bovenal enthousiast.
 <i>Stan Beekmans</i> ('91, voorzitter), doet de docentenopleiding natuurkunde
 en ziet toe op het reilen en zeilen van de vereniging, daarin bijgestaan
 door <i>Yurre Wieken</i> ('90, secretaris), student politicologie en reeds
