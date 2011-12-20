@@ -7,6 +7,7 @@
 		<ul>
 			<li><a href="<?php echo curi('archief/akta25.pdf'); ?>">(Intro) Akta 25</a></li>
 			<li><a href="<?php echo curi('archief/akta26.pdf'); ?>">Akta 26</a></li>
+			<li><a href="<?php echo curi('archief/akta27.pdf'); ?>">Akta 27</a></li>
 		</ul>
 		<li>Jaargang 7</li>
 		<ul>
