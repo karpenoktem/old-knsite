@@ -1,6 +1,8 @@
-<?php set_title('Akta Nokturna');
-	  include_stylesheet('an');
-	  default_header(); ?>
+<?php
+	set_title('Akta Nokturna');
+	include_stylesheet('an');
+	default_header();
+?>
 	<p>Hier kunt u de oudere uitgaven van de Akta Nokturna downloaden</p>
 	<ul id="an">
 		<li>Jaargang 8</li>
@@ -54,4 +56,6 @@
 			<li><a href="<?php echo curi('archief/akta2.pdf'); ?>">Akta 2</a></li>
 		</ul>
 	</ul>	
-<?php default_footer(); ?>
+<?php
+	default_footer();
+?>

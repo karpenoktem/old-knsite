@@ -59,7 +59,6 @@ function include_stylesheet($stylesheet) {
 
 function default_header() { 
 	global $page, $cfg; 
-	$img = $page['bg'].'.'.$cfg['bgs'][rand(0, count($cfg['bgs'])-1)];
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -69,11 +68,6 @@ function default_header() {
 		<?php emit_stylesheets() ?>
 		<script type="text/javascript" src="<?php echo curi('js/common.js'); ?>"></script>
 		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-		<?php if(!$page['bare']) { ?>
-		<style type="text/css">
-			#main { background-image: url(<?php echo curi("img/bgs/$img"); ?>); }
-		</style>
-		<?php } ?>
 		<!--[if lte IE 7]>
 		<link rel="stylesheet" type="text/css" href="<?php echo curi('style/iehacks.css'); ?>" />
 		<![endif]-->
@@ -124,19 +118,10 @@ function default_footer() { global $cfg, $page; ?>
 			<?php emit_menu(); ?>
 			<?php } ?>
 		</div>
-		<div id="footer"><!--[if IE]>
-		Internet Explorer is moeilijk te ondersteunen.
-		Gebruik <a href="http://www.mozilla.com/en-US/firefox/">een</a>
-		open browser voor een beter resultaat.<br/>
-		<![endif]-->
-		&copy;2007&mdash;2011, Karpe Noktem<?php
-		if(isset($cfg['release'])) {
-			echo "; <a href='".auri('release')."'>".
-			     strftime('%e %b' ,$cfg['release']['date'])."</a>";
-		}
-		?></div>
+		<div id="footer">
+			Hier kan een zinnige footer-tekst komen te staan :)
 		</div>
-		<!-- Source code? Take a look at the .git dir -->
+		</div>
 		<script type="text/javascript">
 			common_init();
 		</script>

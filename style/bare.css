@@ -4,18 +4,13 @@ a, body, #menu a {
 
 body {
         background-color: black;
-        font-family: "trebuchet ms", verdana;
-        padding-left: 50%;
+        font-family: sans-serif;
+	line-height: 1.5;
 }
 
 #wrapper {
-        width: 800px;
-        margin-left: -400px;
-}
-
-#main {
-        background-repeat: no-repeat;
-        min-height: 533px;
+        width: 1000px;
+	margin: 0 auto;
 }
 
 h1 {
