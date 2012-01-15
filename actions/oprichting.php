@@ -1,6 +1,6 @@
-<?php set_title('Geschiedenis');
+<?php set_title('Oprichter');
 	  default_header(); ?>
-<p><em>Door Giedo Jansen, Oprichter van Karpe Noktem</em></p>
+<p><em>Door Giedo Jansen, voorzitter van het oprichtende bestuur van Karpe Noktem</em></p>
 <img src="<?php echo curi('img/giedo.jpg'); ?>" class="left" title="Giedo Jansen" />
 <p>Karpe Noktem is &eacute;&eacute;n van de jongste gezelligheidsvereniging
 van Nijmegen. Het
