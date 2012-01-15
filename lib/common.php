@@ -74,12 +74,15 @@ function default_header() {
 		<title>ASV Karpe Noktem <?php
 			if(!empty($page['title'])) { ?>- <?php echo $page['title']; } 
 		?></title>
+		<meta name="copyright" content="Copyright (c) 2012 Karpe Noktem" />
 		<meta name="google-site-verification" content="l0qIUe2C4DlhszFe3hyN3f26uMMLNL9-VPqErQBa-fY" />
 	</head>
 	<body>
 		<div id="wrapper">
 		<?php if(!$page['bare']) { ?>
-		<div id="logo"></div>
+		<div id="logoContainer">
+			<img src="img/logo.png">
+		</div>
 		<?php } ?>
 		
 		<div id="main">	
