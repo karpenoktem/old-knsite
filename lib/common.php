@@ -96,10 +96,10 @@ function default_header() {
 function emit_menu() { global $page; ?>
 			<ul id="menu">
 				<li><a href="<?php echo auri('agenda') ?>">Agenda</a></li>
-				<li><a href="<?php echo auri('watis') ?>">Over ons</a>
+				<li><a href="<?php echo auri('watis') ?>">Over Karpe Noktem</a>
 				<ul>
-					<li><a href="<?php echo auri('watis') ?>">Wat is Karpe Noktem?</a></li>
-					<li><a href="<?php echo auri('activiteiten') ?>">Wat doet Karpe Noktem?</a></li>
+					<li><a href="<?php echo auri('watis') ?>">Wat zijn we?</a></li>
+					<li><a href="<?php echo auri('activiteiten') ?>">Wat doen we?</a></li>
 					<li><a href="<?php echo auri('oprichting') ?>">Oprichting</a></li>
 					<li><a href="<?php echo auri('bestuur') ?>">Bestuur</a></li>
 					<li><a href="<?php echo auri('zusjes') ?>">Zusjes</a></li>
