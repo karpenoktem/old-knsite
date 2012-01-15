@@ -1,10 +1,10 @@
 <?php set_title('ZEUS');
       default_header(); ?>
-<p>Behalve Karpe Noktem zijn er nog heel veel andere alternatieve
-studentenverenigingen, in heel Nederland!  Deze vormen samen het
-zusterverband <a href="http://zeusverbond.nl">ZEUS</a> (dit staat voor
+<p>Behalve Karpe Noktem zijn er nog meer andere alternatieve
+studentenverenigingen in Nederland!  Deze vormen samen het
+<b>zusterverband</b> <a href="http://zeusverbond.nl">ZEUS</a> (dit staat voor
 Zusterlijke Eenheid Uit Saamhorigheid),
-dat bestaat uit zes verenigingen naast Karpe Noktem; namelijk:
+dat bestaat naast Karpe Noktem uit zes verenigingen; namelijk:
 </p>
 <ul>
 <li><a href="http://www.biton.nl/">B.I.T.O.N.</a> uit Utrecht,</li>
