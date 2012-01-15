@@ -98,49 +98,22 @@ function default_header() {
 
 function emit_menu() { global $page; ?>
 			<ul id="menu">
-				<li><a href="<?php echo auri('home'); ?>">Beginpagina</a></li>
-				<li><a href="<?php echo auri('agenda') ?>"
-				    >Agenda</a></li>
-				<li><a href="<?php echo auri('watis') ?>"
-					>Over ons</a>
+				<li><a href="<?php echo auri('agenda') ?>">Agenda</a></li>
+				<li><a href="<?php echo auri('watis') ?>">Over ons</a>
 				<ul>
-					<li><a href="<?php echo auri('watis') ?>"
-						>Wat is <abbr title="Karpe Noktem">KN</abbr>?</a></li>
-					<li><a href="<?php echo auri('geschiedenis') ?>"
-						>Geschiedenis</a></li>
-					<li><a href="<?php echo auri('activiteiten') ?>"
-						>Activiteiten</a></li>
-					<li><a href="<?php echo auri('bestuur') ?>"
-						>Bestuur</a></li>
-					<li><a href="<?php echo auri('contact') ?>"
-						>Contact</a></li>
-					<li><a href="<?php echo auri('lidworden') ?>"
-						>Lid worden</a></li>
+					<li><a href="<?php echo auri('watis') ?>">Wat is <abbr title="Karpe Noktem">KN</abbr>?</a></li>
+					<li><a href="<?php echo auri('oprichting') ?>">Oprichting</a></li>
+					<li><a href="<?php echo auri('activiteiten') ?>">Wat doet KN?</a></li>
+					<li><a href="<?php echo auri('bestuur') ?>">Bestuur</a></li>
+					<li><a href="<?php echo auri('zusjes') ?>">Zusjes</a></li>
+					<li><a href="<?php echo auri('aktanokturna') ?>">Akta Nokturna</a></li>
+					<li><a href="<?php echo auri('links') ?>">Links</a></li>
 				</ul></li>
-				<li><a href="<?php echo auri('media') ?>">Fotos/videos</a>
-				<ul>
-					<li><a href="http://karpenoktem.nl/fotos/">Fotogalerij</a></li>
-					<li><a href="http://karpenoktem.nl/fotos/index.php?album=pdn">Pluk de Nacht</a></li>
-				</ul></li>
-                                <li><a href="<?php echo auri('smoelen') ?>">Leden</a>
-				<ul>
-					<li><a href="<?php echo auri('smoelen') ?>">Smoelenboek</a></li>
-					<li><a href="<?php echo auri('wiki') ?>">Wiki</a></li>
-					<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
-					<li><a href="<?php echo auri('groups/leden') ?>">Stukken</a></li>
-				</ul></li>
-				<li><a href="<?php echo auri('merchandise') ?>"
-						>Merchandise</a></li>
-                                <li><a href="<?php echo auri('aktanokturna') ?>"
-						>Akta Nokturna</a></li>
-				<li><a href="<?php echo auri('links') ?>"
-					>Links</a>
-				<ul>
-				<li><a href="<?php echo auri('zusjes') ?>"
-					>Zusjes</a></li>
-				<li><a href="<?php echo auri('sponsoren') ?>"
-					>Sponsoren</a></li>
-				</ul></li>
+				<li><a href="<?php echo auri('fotos') ?>">Fotogalerij</a>
+				<li><a href="<?php echo auri('plukdenacht') ?>">Pluk de Nacht</a>
+				<li><a href="<?php echo auri('sponsoren') ?>">Sponsoren</a></li>
+				<li><a href="<?php echo auri('contact') ?>">Contact</a></li>
+				<li><a href="<?php echo auri('lidworden') ?>">Lid worden</a></li>
 			</ul>
 			<?php
 }
