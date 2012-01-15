@@ -112,7 +112,16 @@ function emit_menu() { global $page; ?>
 				<li><a href="<?php echo auri('plukdenacht') ?>">Pluk de Nacht</a>
 				<li><a href="<?php echo auri('sponsoren') ?>">Sponsoren</a></li>
 				<li><a href="<?php echo auri('contact') ?>">Contact</a></li>
-				<li><a href="<?php echo auri('lidworden') ?>">Lid worden</a></li>
+                <li><a href="<?php echo auri('lidworden') ?>">Lid worden</a></li>
+                <li id="loginContainer">Inloggen
+                    <form action="<?php echo auri('accounts/login'); ?>" method="post">
+                        <ul>                        
+                            <li><input name="username" type="text" placeholder="Gebruikersnaam" size="15"></li>
+                            <li><input name="password" type="password" placeholder="Wachtwoord" size="15"></li>
+                            <li><input type="submit" value="Login"></li>
+                        </ul>
+                    </form>
+                </li>
 			</ul>
 			<?php
 }
