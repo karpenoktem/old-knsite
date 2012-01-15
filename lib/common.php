@@ -195,8 +195,8 @@ function email($email) {
 
 function interested_form() {
 	global $cfg;
-	$t = "<form method='post' action='{$cfg['interested-subscribe-uri']}'>".
-		"<input name='email' type='text' value='jouw@email.com' />".
+	$t = "<form method='post' action='{$cfg['interested-subscribe-uri']}'>" .
+		"<input name='email' type='text' placeholder='jouw@email.com' />" .
 		"<input type='submit' value='voeg toe' /></form>";
 	$t = str_replace('"', '\\"', $t);
 	return "<script type='text/javascript'>".
