@@ -1,15 +1,15 @@
 a, body, #menu a {
-        color: #eee;
+	color: #eee;
 }
 
 body {
-        background-color: black;
-        font-family: sans-serif;
+	background-color: black;
+	font-family: sans-serif;
 	line-height: 1.5;
 }
 
 #wrapper {
-        width: 1000px;
+	width: 900px;
 	margin: 0 auto;
 }
 
