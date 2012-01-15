@@ -102,8 +102,8 @@ function emit_menu() { global $page; ?>
 				<li><a href="<?php echo auri('watis') ?>">Over ons</a>
 				<ul>
 					<li><a href="<?php echo auri('watis') ?>">Wat is Karpe Noktem?</a></li>
-					<li><a href="<?php echo auri('oprichting') ?>">Oprichting</a></li>
 					<li><a href="<?php echo auri('activiteiten') ?>">Wat doet Karpe Noktem?</a></li>
+					<li><a href="<?php echo auri('oprichting') ?>">Oprichting</a></li>
 					<li><a href="<?php echo auri('bestuur') ?>">Bestuur</a></li>
 					<li><a href="<?php echo auri('zusjes') ?>">Zusjes</a></li>
 					<li><a href="<?php echo auri('aktanokturna') ?>">Akta Nokturna</a></li>
