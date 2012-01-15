@@ -23,7 +23,7 @@ body {
 #menu {
 	padding: 15px 0px 0 0;
 	margin: 0 0 0 10px;
-	width: 225px;
+	width: 175px;
 }
 
 #menu li {
@@ -63,7 +63,7 @@ a:hover {
 }
 
 #footer, #main {
-        border-top: 1px solid #800100;
+	border-top: 1px solid #800100;
 	background-color: #000;
 }
 
