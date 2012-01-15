@@ -86,7 +86,9 @@ function default_header() {
 	<body>
 		<div id="wrapper">
 		<?php if(!$page['bare']) { ?>
-		<div id="logo"></div>
+		<div id="logoContainer">
+			<img src="img/logo.png">
+		</div>
 		<?php } ?>
 		
 		<div id="main">	
