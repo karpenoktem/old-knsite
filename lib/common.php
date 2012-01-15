@@ -116,12 +116,28 @@ function emit_menu() { global $page; ?>
 				<li><a href="<?php echo auri('contact'); ?>">Contact</a></li>
 				<li><a href="<?php echo auri('lidworden'); ?>">Lid worden</a></li>
 				<li id="loginContainer">Inloggen
-					<form action="<?php echo auri('accounts/login'); ?>" method="post">
+					<form action="http://karpenoktem.nl/accounts/login/" method="post">
 						<ul>
-							<li><input name="username" type="text" placeholder="Gebruikersnaam" size="10"></li>
-							<li><input name="password" type="password" placeholder="Wachtwoord" size="10"></li>
-							<li><input type="submit" value="Login"></li>
+							<li><input name="username" type="text" placeholder="Gebruikersnaam" size="10" /></li>
+							<li><input name="password" type="password" placeholder="Wachtwoord" size="10" /></li>
+							<li><input type="submit" value="Login" /></li>
 						</ul>
+						<input id="id_csrfmiddlewaretoken" type="hidden" name="csrfmiddlewaretoken" value="" />
+						<script type="text/javascript" language="javascript" />
+function getCookie(c_name) {
+	var i,x,y,ARRcookies=document.cookie.split(";");
+	for (i=0;i<ARRcookies.length;i++) {
+		x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+		y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+		x=x.replace(/^\s+|\s+$/g,"");
+		if (x==c_name) {
+			return unescape(y);
+		}
+	}
+}
+
+objById('id_csrfmiddlewaretoken').value = getCookie('csrftoken');
+						</script>
 					</form>
 				</li>
 			</ul>
