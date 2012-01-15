@@ -1,17 +1,8 @@
-#an,
-#an ul {
-	list-style: none;
+#akta .aktaname {
+	text-align: center;
 }
-
-#an ul {
-	margin: 0 0 0.5em 1em;
-	padding: 0;
-}
-
-#an li {
-	font-weight: bold;
-}
-
-#an ul li {
-	font-weight: normal;
+#akta img {
+	margin-top: 30px;
+	margin-bottom: 0;
+	margin-right: 10px;
 }
