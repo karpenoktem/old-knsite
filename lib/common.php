@@ -87,7 +87,9 @@ function default_header() {
 		<div id="wrapper">
 		<?php if(!$page['bare']) { ?>
 		<div id="logoContainer">
-			<img src="img/logo.png">
+			<a href="<?php echo auri('home'); ?>">
+				<img src="<?php echo curi('img/logo.png'); ?>" alt="ASV Karpe Noktem" />
+			</a>
 		</div>
 		<?php } ?>
 		
