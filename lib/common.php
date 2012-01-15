@@ -110,7 +110,7 @@ function emit_menu() { global $page; ?>
 					<li><a href="<?php echo auri('aktanokturna'); ?>">Akta Nokturna</a></li>
 					<li><a href="<?php echo auri('links'); ?>">Links</a></li>
 				</ul></li>
-				<li><a href="<?php echo auri('fotos'); ?>">Fotogalerij</a>
+				<li><a href="/fotos/">Fotogalerij</a>
 				<li><a href="<?php echo auri('plukdenacht'); ?>">Pluk de Nacht</a>
 				<li><a href="<?php echo auri('sponsoren'); ?>">Sponsoren</a></li>
 				<li><a href="<?php echo auri('contact'); ?>">Contact</a></li>
