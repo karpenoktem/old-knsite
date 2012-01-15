@@ -1,12 +1,33 @@
 <?php set_title('Sponsoren');
-      default_header(); ?>
+	include_stylesheet('sponsoren');
+	default_header(); ?>
 Karpe Noktem zou niet kunnen bestaan zonder de steun van onze sponsoren:
 
-<ul>
-        <li><a href="http://www.dressmeclothing.nl/">DressMe Clothing</a></li>
-        <li><img src="<?= curi('img/snuf.gif') ?>" style="float:right" />
-            <a href="http://www.ru.nl/snuf/">Stichting
-                    Nijmeegs Universiteitsfonds</a></li>
-</ul>
+<table id="sponsoren">
+	<tr class="images">
+		<td>
+			<a href="http://www.dressmeclothing.nl/" target="_blank">
+				<img src="<?php echo curi('img/dressme.png'); ?>" width="250px">
+			</a>
+		</td>
+		<td>
+			<a href="http://www.ru.nl/snuf/" target="_blank">
+        <img src="<?= curi('img/snuf.gif') ?>" />
+			</a>
+		</td>
+	</tr>
+	<tr class="links">
+		<td>
+			<a href="http://www.dressmeclothing.nl/" target="_blank">
+				<div>DressMe Clothing</div>
+			</a>
+		</td>
+		<td>
+			<a href="http://www.ru.nl/snuf/" target="_blank">
+				<div>Stichting Nijmeegs Universiteitsfonds</div>
+			</a>
+		</td>
+	</tr>
+</table>
 
 <?php default_footer(); ?>

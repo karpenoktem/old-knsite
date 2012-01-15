@@ -1,0 +1,10 @@
+#sponsoren img {
+	margin-right: 30px;
+	margin-bottom: 0;
+}
+#sponsoren td {
+	text-align: center;
+}
+#sponsoren td.images {
+	vertical-align: center;
+}
