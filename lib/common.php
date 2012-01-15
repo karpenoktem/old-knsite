@@ -116,7 +116,7 @@ function emit_menu() { global $page; ?>
 				<li><a href="<?php echo auri('contact'); ?>">Contact</a></li>
 				<li><a href="<?php echo auri('lidworden'); ?>">Lid worden</a></li>
 				<li id="loginContainer">Inloggen
-					<form action="http://karpenoktem.nl/accounts/login/" method="post">
+					<form action="<?php echo auri('/accounts/login/'); ?>" method="post">
 						<ul>
 							<li><input name="username" type="text" placeholder="Gebruikersnaam" size="10" /></li>
 							<li><input name="password" type="password" placeholder="Wachtwoord" size="10" /></li>
