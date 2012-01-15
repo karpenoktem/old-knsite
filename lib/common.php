@@ -133,7 +133,7 @@ function default_footer() { global $cfg, $page; ?>
 			<?php } ?>
 		</div>
 		<div id="footer">
-			Meer weten? Mail naar: <a href="mailto:info@karpenoktem.nl">info@karpenoktem.nl</a>
+			Meer weten? E-mail <?php echo email('secretaris@karpenoktem.nl'); ?>
 		</div>
 		</div>
 		<script type="text/javascript">
