@@ -1,7 +1,7 @@
 <?php set_title('Vijfde Bestuur');
       default_header(); ?>
 <p class="imageDisplay">
-	<img src="<?php echo curi('img/bestuur5.jpg');?>" />
+	<img src="<?php echo curi('img/bestuur5.jpg');?>" /><br/>
 	<small>Van links naar rechts: Jesper, Mike, Lisette, Rik en
 	       Maaike.</small>
 </p>
