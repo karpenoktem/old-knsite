@@ -133,7 +133,7 @@ function default_footer() { global $cfg, $page; ?>
 			<?php } ?>
 		</div>
 		<div id="footer">
-			Hier kan een zinnige footer-tekst komen te staan :)
+			Meer weten? Mail naar: <a href="mailto:info@karpenoktem.nl">info@karpenoktem.nl</a>
 		</div>
 		</div>
 		<script type="text/javascript">

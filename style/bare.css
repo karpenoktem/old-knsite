@@ -12,6 +12,7 @@ body {
 #wrapper {
 	width: 900px;
 	margin: 0 auto;
+	box-shadow: 0 0 3px 3px #000;
 }
 
 h1 {
@@ -39,6 +40,11 @@ p, h2, img {
 
 h2 {
         margin-bottom: 0.5em;
+}
+
+#footer {
+	padding: 10px 0;
+	font-size: 0.8em;
 }
 
 #footer a {

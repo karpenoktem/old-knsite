@@ -6,7 +6,7 @@
 	  <div id="homeContent">
 	  	<img src="<?php echo curi('img/dansend.jpg'); ?>" width="475" />
 		<p>
-	  		Welkom bij ASV Karpe Noktem. Hier staat wat vrolijke tekst waarin kort uitleg wordt gegeven over wat KN is. En een mooie foto waaraan je in 1 keer ziet dat KN cool is.
+	  		Welkom bij ASV Karpe Noktem, dé alternatieve studentenvereniging van Nijmegen!
 		</p>
 	  </div>
 <?php
