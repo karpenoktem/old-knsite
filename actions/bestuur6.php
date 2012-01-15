@@ -1,7 +1,7 @@
 <?php set_title('Zesde Bestuur');
       default_header(); ?>
 <p class="imageDisplay">
-	<img src="<?php echo curi('img/bestuur6.jpg');?>" />
+	<img src="<?php echo curi('img/bestuur6.jpg');?>" /><br/>
 	<small>Van links naar rechts: Mike (vice-voorzitter),
 	Hugo (penningmeester), Michiel (voorzitter), Bas (secretaris) en
         Rik (pandverantwoordelijke).</small>
