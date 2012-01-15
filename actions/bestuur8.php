@@ -1,7 +1,7 @@
 <?php set_title('Bestuur');
       default_header(); ?>
 <p class="imageDisplay">
-	<img src="<?php echo curi('img/bestuur8.jpg');?>" />
+	<img src="<?php echo curi('img/bestuur8.jpg');?>" /><br/>
         <small>Van links naar rechts: Sara (vicevoorzitter),
         Koen (pandcommissaris), Stan (voorzitter), Yurre (secretaris)
         en Louise (penningmeester)</small>
