@@ -118,8 +118,8 @@ function emit_menu() { global $page; ?>
 				<li id="loginContainer">Inloggen
 					<form action="<?php echo auri('/accounts/login/'); ?>" method="post">
 						<ul>
-							<li><input name="username" type="text" placeholder="Gebruikersnaam" size="10" /></li>
-							<li><input name="password" type="password" placeholder="Wachtwoord" size="10" /></li>
+							<li><input id="login_username" name="username" type="text" placeholder="Gebruikersnaam" size="10" /></li>
+							<li><input id="login_password" name="password" type="password" placeholder="Wachtwoord" size="10" /></li>
 							<li><input type="submit" value="Login" /></li>
 						</ul>
 						<input id="id_csrfmiddlewaretoken" type="hidden" name="csrfmiddlewaretoken" value="" />

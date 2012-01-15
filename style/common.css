@@ -76,8 +76,16 @@ a:hover {
 	margin: 1em auto;
 }
 
+#loginContainer input#login_username, #loginContainer input#login_password {
+	width: 125px;
+}
+
 #menu input {
 	background-color: #101010;
 	border: solid 1px #808080;
 	color: #eee;
+}
+
+a img {
+	border: none;
 }
