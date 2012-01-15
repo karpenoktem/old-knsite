@@ -1,8 +1,8 @@
 <?php set_title('Contact');
 	  default_header(); ?>
 <p>Voor verzoeken, aanbiedingen en andere algemene zaken kunt u zich wenden tot de secretaris:
-<?php echo email('secretaris@karpenoktem.nl'); ?>.</p>
-<p>Voor vragen ofwel opmerkingen over de website karpenoktem.nl kunt u 
+<?php echo email('secretaris@karpenoktem.nl'); ?>.<br>
+Voor vragen ofwel opmerkingen over deze website kunt u 
 mailen met <?php echo email('webcie@karpenoktem.nl'); ?>.</p>
 <p>Kerstkaarten, uitnodigingen, rekeningen en alle andere zaken kunt
 u sturen naar:</p>

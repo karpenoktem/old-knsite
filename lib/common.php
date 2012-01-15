@@ -2,16 +2,18 @@
 
 setlocale(LC_TIME, 'nl_NL');
 
-$page = array('bg' => 'rest',
-			  'stylesheets' => array('bare'),
-			  'title' => '',
-                          'unsafe-email' => false,
-			  'bare' => false);
+$page = array(
+	'bg' => 'rest',
+	'stylesheets' => array('bare'),
+	'title' => '',
+	'unsafe-email' => false,
+	'bare' => false
+);
 
 function auri($action, $qs='', $an='') {
 	global $cfg;
-        $r = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://')
-                                 . $cfg['auri'] . $action;
+	$r = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') .
+		$cfg['auri'] . $action;
 	if(!empty($qs)) $r .= '?' . $qs; 
 	if(!empty($an)) $r .= '#' . $an;
 	return $r;
@@ -19,17 +21,17 @@ function auri($action, $qs='', $an='') {
 
 function curi($content) {
 	global $cfg;
-        return (isset($_SERVER['HTTPS']) ? 'https://' : 'http://')
-                . $cfg['curi'] . $content;
+	return (isset($_SERVER['HTTPS']) ? 'https://' : 'http://')
+		. $cfg['curi'] . $content;
 }
 
 function emit_stylesheets() {
 	global $page;
 	if(!$page['bare']) { $page['stylesheets'][]= 'common'; }
-	foreach($page['stylesheets'] as $stylesheet) { ?>
-		<link href="<?php echo curi("style/{$stylesheet}.css"); ?>"
-			  rel="stylesheet" type="text/css" />
-	<?php }
+		foreach($page['stylesheets'] as $stylesheet) {
+			echo '<link href="' . curi("style/{$stylesheet}.css") . '"' .
+				' rel="stylesheet" type="text/css" />';
+	}
 }
 
 function unsafe_emails() {
@@ -97,22 +99,22 @@ function default_header() {
 
 function emit_menu() { global $page; ?>
 			<ul id="menu">
-				<li><a href="<?php echo auri('agenda') ?>">Agenda</a></li>
-				<li><a href="<?php echo auri('watis') ?>">Over Karpe Noktem</a>
+				<li><a href="<?php echo auri('agenda'); ?>">Agenda</a></li>
+				<li><a href="<?php echo auri('watis'); ?>">Over Karpe Noktem</a>
 				<ul>
-					<li><a href="<?php echo auri('watis') ?>">Wat zijn we?</a></li>
-					<li><a href="<?php echo auri('activiteiten') ?>">Wat doen we?</a></li>
-					<li><a href="<?php echo auri('oprichting') ?>">Oprichting</a></li>
-					<li><a href="<?php echo auri('bestuur') ?>">Bestuur</a></li>
-					<li><a href="<?php echo auri('zusjes') ?>">Zusjes</a></li>
-					<li><a href="<?php echo auri('aktanokturna') ?>">Akta Nokturna</a></li>
-					<li><a href="<?php echo auri('links') ?>">Links</a></li>
+					<li><a href="<?php echo auri('watis'); ?>">Wat zijn we?</a></li>
+					<li><a href="<?php echo auri('activiteiten'); ?>">Wat doen we?</a></li>
+					<li><a href="<?php echo auri('oprichting'); ?>">Oprichting</a></li>
+					<li><a href="<?php echo auri('bestuur'); ?>">Bestuur</a></li>
+					<li><a href="<?php echo auri('zusjes'); ?>">Zusjes</a></li>
+					<li><a href="<?php echo auri('aktanokturna'); ?>">Akta Nokturna</a></li>
+					<li><a href="<?php echo auri('links'); ?>">Links</a></li>
 				</ul></li>
-				<li><a href="<?php echo auri('fotos') ?>">Fotogalerij</a>
-				<li><a href="<?php echo auri('plukdenacht') ?>">Pluk de Nacht</a>
-				<li><a href="<?php echo auri('sponsoren') ?>">Sponsoren</a></li>
-				<li><a href="<?php echo auri('contact') ?>">Contact</a></li>
-				<li><a href="<?php echo auri('lidworden') ?>">Lid worden</a></li>
+				<li><a href="<?php echo auri('fotos'); ?>">Fotogalerij</a>
+				<li><a href="<?php echo auri('plukdenacht'); ?>">Pluk de Nacht</a>
+				<li><a href="<?php echo auri('sponsoren'); ?>">Sponsoren</a></li>
+				<li><a href="<?php echo auri('contact'); ?>">Contact</a></li>
+				<li><a href="<?php echo auri('lidworden'); ?>">Lid worden</a></li>
 				<li id="loginContainer">Inloggen
 					<form action="<?php echo auri('accounts/login'); ?>" method="post">
 						<ul>
@@ -126,30 +128,33 @@ function emit_menu() { global $page; ?>
 			<?php
 }
 
-function default_footer() { global $cfg, $page; ?>
+function default_footer() {
+	global $cfg, $page;
+			?>
 			</div>
 			<?php if(!$page['bare']) { ?>
 			<?php emit_menu(); ?>
 			<?php } ?>
 		</div>
 		<div id="footer">
-			Meer weten? Mail naar: <a href="mailto:info@karpenoktem.nl">info@karpenoktem.nl</a>
+			Meer weten? E-mail <?php echo email('secretaris@karpenoktem.nl'); ?>
 		</div>
 		</div>
 		<script type="text/javascript">
-			common_init();
+common_init();
 		</script>
 		<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 		</script>
 		<script type="text/javascript">
-		try {
-			var pageTracker = _gat._getTracker("UA-11922614-1");
-			pageTracker._trackPageview();
-		} catch(err) {}</script>
+try {
+	var pageTracker = _gat._getTracker("UA-11922614-1");
+	pageTracker._trackPageview();
+} catch(err) {}
+		</script>
 	</body>
-</html> <?php
+</html><?php
 }
 
 function email($email) {
@@ -161,14 +166,14 @@ function email($email) {
 	$bits = explode('.', $bits[1]);
 	$t = $bits[count($bits) - 1];
 	$d = implode('.', array_slice($bits, 0, count($bits) - 1));
-	return "<script type='text/javascript'>email('$t', '$d', '$u');</script>".
-		   "<noscript>[X@Y, waar voor Y=$d.$t en X=$u]</noscript>";
+	return "<script type='text/javascript'>email('$t', '$d', '$u');</script>" .
+		"<noscript>[X@Y, waar voor Y=$d.$t en X=$u]</noscript>";
 }
 
 function interested_form() {
 	global $cfg;
-	$t = "<form method='post' action='{$cfg['interested-subscribe-uri']}'>".
-		"<input name='email' type='text' value='jouw@email.com' />".
+	$t = "<form method='post' action='{$cfg['interested-subscribe-uri']}'>" .
+		"<input name='email' type='text' value='jouw@email.com' />" .
 		"<input type='submit' value='voeg toe' /></form>";
 	$t = str_replace('"', '\\"', $t);
 	return "<script type='text/javascript'>".
