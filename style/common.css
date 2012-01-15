@@ -73,11 +73,11 @@ a:hover {
 }
 
 #loginContainer {
-    margin: 1em auto;
+	margin: 1em auto;
 }
 
 #menu input {
-    background-color: #101010;
-    border: solid 1px #808080;
-    color: #eee;
+	background-color: #101010;
+	border: solid 1px #808080;
+	color: #eee;
 }
