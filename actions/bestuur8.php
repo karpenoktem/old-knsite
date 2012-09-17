@@ -26,5 +26,7 @@ andere verenigingen in de Villa van Schaeck.</p>
 getreden.</small></p>
 
 <p>&lArr; Het vorige,
-<a href="<?php echo auri('bestuur7'); ?>">zevende bestuur</a>.</p>
+<a href="<?php echo auri('bestuur7'); ?>">zevende bestuur</a>;
+het volgende,
+<a href="<?php echo auri('bestuur9'); ?>">negende bestuur</a> &rArr;</p>
 <?php default_footer(); ?>
