@@ -6,7 +6,7 @@ borrels in <a href="<?php echo auri('route'); ?>">de Villa van Schaeck</a>, of s
 een e-mailtje naar 
 <?php echo email('secretaris@karpenoktem.nl'); ?> en dan is het zo geregeld!</p>
 
-<h2>Lid-af worden</h2>
-<p>Wil je geen lid meer zijn? Stuur dan ook een mailtje naar <?php echo email('secretaris@karpenoktem.nl'); ?>.</p>
+<h3>Uitschrijven</h3>
+<p>Wil je je uitschrijven? Stuur ook dan een mailtje naar <?php echo email('secretaris@karpenoktem.nl'); ?>.</p>
 
 <?php default_footer(); ?>
