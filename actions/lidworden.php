@@ -7,6 +7,7 @@ een e-mailtje naar
 <?php echo email('secretaris@karpenoktem.nl'); ?> en dan is het zo geregeld!</p>
 
 <h3>Uitschrijven</h3>
-<p>Wil je je uitschrijven? Stuur ook dan een mailtje naar <?php echo email('secretaris@karpenoktem.nl'); ?>.</p>
+<p>Wil je je uitschrijven? Stuur ook dan een mailtje naar
+<?php echo email('secretaris@karpenoktem.nl'); ?>.</p>
 
 <?php default_footer(); ?>
