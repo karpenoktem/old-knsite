@@ -92,18 +92,14 @@ function onResize() {
 	if (getComputedStyle(document.getElementById('menu'), null).overflow == 'hidden') {
 		// mobile
 		if (on_mobile) return;
-		console.log('mobile');
 		on_mobile = true;
 		menu.style.height = '0px';
-		buttonwrapper.style.display='block';
 		document.getElementById('wrapper').insertBefore(menu, main);
 	} else  {
 		// desktop
 		if (!on_mobile) return;
-		console.log('desktop');
 		on_mobile = false;
 		menu.style.height = '';
-		buttonwrapper.style.display='';
 		main.appendChild(menu);
 	}
 }
@@ -114,7 +110,7 @@ function toggleMenu () {
 		running_timeout = undefined;
 	}
 	if (menu.style.height == '0px') {
-		menu.style.height = getComputedStyle(menu.children[0], null).height;
+		menu.style.height = menu.scrollHeight+'px';
 		menubutton_arrow.textContent = '▼'; // the old value, when pushing button fast
 		running_timeout = setTimeout(function () {
 				running_timeout = undefined;

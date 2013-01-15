@@ -73,7 +73,6 @@ function default_header() {
 		<style type="text/css">
 			#main { background-image: url(<?php echo curi("img/bgs/$img"); ?>); }
 		</style>
-		<link rel="stylesheet" href="<?=curi("style/mobile.css")?>" type="text/css" media="only screen and (max-width: 35em)"/>
 		<?php } ?>
 		<!--[if lte IE 7]>
 		<link rel="stylesheet" type="text/css" href="<?php echo curi('style/iehacks.css'); ?>" />
@@ -104,7 +103,7 @@ function default_header() {
 }
 
 function emit_menu() { global $page; ?>
-			<div id="menu"><ul>
+			<ul id="menu">
 				<li><a href="<?php echo auri('home'); ?>">Beginpagina</a></li>
 				<li><a href="<?php echo auri('agenda') ?>"
 				    >Agenda</a></li>
@@ -148,7 +147,7 @@ function emit_menu() { global $page; ?>
 				<li><a href="<?php echo auri('sponsoren') ?>"
 					>Sponsoren</a></li>
 				</ul></li>
-			</ul></div>
+			</ul>
 			<?php
 }
 
