@@ -73,6 +73,7 @@ function default_header() {
 		<style type="text/css">
 			#main { background-image: url(<?php echo curi("img/bgs/$img"); ?>); }
 		</style>
+		<link rel="stylesheet" href="<?=curi("style/mobile.css")?>" type="text/css" media="only screen and (max-width: 35em)"/>
 		<?php } ?>
 		<!--[if lte IE 7]>
 		<link rel="stylesheet" type="text/css" href="<?php echo curi('style/iehacks.css'); ?>" />
@@ -81,12 +82,18 @@ function default_header() {
 			if(!empty($page['title'])) { ?>- <?php echo $page['title']; } 
 		?></title>
 		<meta name="google-site-verification" content="l0qIUe2C4DlhszFe3hyN3f26uMMLNL9-VPqErQBa-fY" />
+		<meta name="viewport" content="width=device-width"/>
 	</head>
 	<body>
 		<div id="wrapper">
 		<?php if(!$page['bare']) { ?>
 		<div id="logo"></div>
 		<?php } ?>
+		<div id="buttonwrapper">
+			<span id="menubutton" onclick="toggleMenu();">
+				Menu<span id="menubutton-arrow">▼</span>
+			</span>
+		</div>
 		
 		<div id="main">	
 			<div id="body">
@@ -97,7 +104,7 @@ function default_header() {
 }
 
 function emit_menu() { global $page; ?>
-			<ul id="menu">
+			<div id="menu"><ul>
 				<li><a href="<?php echo auri('home'); ?>">Beginpagina</a></li>
 				<li><a href="<?php echo auri('agenda') ?>"
 				    >Agenda</a></li>
@@ -141,7 +148,7 @@ function emit_menu() { global $page; ?>
 				<li><a href="<?php echo auri('sponsoren') ?>"
 					>Sponsoren</a></li>
 				</ul></li>
-			</ul>
+			</ul></div>
 			<?php
 }
 

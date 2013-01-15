@@ -68,3 +68,7 @@ a:hover {
 	font-style: italic;
 	color: #999;
 }
+
+#buttonwrapper {
+	display: none;
+}
