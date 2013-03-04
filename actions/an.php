@@ -7,6 +7,7 @@
 		<ul>
 			<li><a href="<?php echo curi('groups/leden/aktas/akta31.pdf'); ?>">(Intro) Akta 31</a></li>
 			<li><a href="<?php echo curi('groups/leden/aktas/akta32.pdf'); ?>">Akta 32</a></li>
+                	<li><a href="<?php echo curi('groups/leden/aktas/akta33.pdf'); ?>">Akta 33</a></li>
                 </ul>
 		<li>Jaargang 8</li>
 		<ul>
