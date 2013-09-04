@@ -3,9 +3,6 @@
 <p>Voor verzoeken, aanbiedingen en andere algemene zaken kunt u
 zich wenden tot de secretaris:
 <?php echo email('secretaris@karpenoktem.nl'); ?></p>
-<p>Heeft u een vraag? Kunnen wij u helpen? Maak een afspraak
-met de voorzitter &mdash; 
-<?php echo email('voorzitter@karpenoktem.nl'); ?>.</p>
 <p>Voor alle financi&euml;le zaken, mag u zich wenden tot de penningmeester:
  <?php echo email('penningmeester@karpenoktem.nl'); ?>.</p>
 <p>Voor vragen ofwel opmerkingen over de website karpenoktem.nl kunt u 

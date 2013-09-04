@@ -1,12 +1,15 @@
 <?php set_title('Akta Nokturna');
 	  include_stylesheet('an');
 	  default_header(); ?>
-	<p>Hier kunt u de oudere uitgaven van de Akta Nokturna downloaden</p>
+	<p>Hier kun je de oudere uitgaven van de Akta Nokturna downloaden:</p>
 	<ul id="an">
 		<li>Jaargang 9</li>
 		<ul>
 			<li><a href="<?php echo curi('groups/leden/aktas/akta31.pdf'); ?>">(Intro) Akta 31</a></li>
 			<li><a href="<?php echo curi('groups/leden/aktas/akta32.pdf'); ?>">Akta 32</a></li>
+                	<li><a href="<?php echo curi('groups/leden/aktas/akta33.pdf'); ?>">Akta 33</a></li>
+                	<li><a href="<?php echo curi('groups/leden/aktas/akta34.pdf'); ?>">Akta 34</a></li>
+                	<li><a href="<?php echo curi('groups/leden/aktas/akta35.pdf'); ?>">Akta 35</a></li>
                 </ul>
 		<li>Jaargang 8</li>
 		<ul>
