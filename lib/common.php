@@ -81,7 +81,7 @@ function default_header() {
 			if(!empty($page['title'])) { ?>- <?php echo $page['title']; } 
 		?></title>
 		<meta name="google-site-verification" content="l0qIUe2C4DlhszFe3hyN3f26uMMLNL9-VPqErQBa-fY" />
-		<meta property="og:image" content="/W/skins/kn/knlogo.png"/>
+		<meta property="og:image" content="<?php echo curi("img/logo-zonder-detail.jpg"); ?>"/>
 		<meta property="og:locale" content="nl_NL"/>
 		<meta property="og:site_name" content="ASV Karpe Noktem"/>
 <?php if ($page['title']) { ?>
