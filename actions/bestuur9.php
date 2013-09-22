@@ -1,4 +1,4 @@
-<?php set_title('Bestuur');
+<?php set_title('Negende Bestuur');
       default_header(); ?>
 <p class="imageDisplay">
 	<img src="<?php echo curi('img/bestuur9.jpg');?>" />
@@ -26,5 +26,7 @@ Schaeck.</p>
 email('petervdv@karpenoktem.nl'); ?>.</p>
 
 <p>&lArr; Het vorige,
-<a href="<?php echo auri('bestuur8'); ?>">achtste bestuur</a>.</p>
+<a href="<?php echo auri('bestuur8'); ?>">achste bestuur</a>;
+het volgende,
+<a href="<?php echo auri('bestuur10'); ?>">tiende bestuur</a> &rArr;</p>
 <?php default_footer(); ?>
