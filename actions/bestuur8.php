@@ -1,4 +1,4 @@
-<?php set_title('Bestuur');
+<?php set_title('Achtste Bestuur');
       default_header(); ?>
 <p class="imageDisplay">
 	<img src="<?php echo curi('img/bestuur8.jpg');?>" />
