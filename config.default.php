@@ -1,6 +1,6 @@
 <?php
 
-$cfg = array('interested-subscribe-uri' => 'https://karpenoktem.nl/'.
+$cfg = array('interested-subscribe-uri' => '/'.
 		'mailman/subscribe/geinteresseerden');
 
 if(is_file('config.php'))

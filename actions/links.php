@@ -17,7 +17,7 @@ voor de nieuwe foto's op
 
 <p>Maar vergeet niet</p>
 <ul>
-<li><a href="https://karpenoktem.nl/wiki">onze wiki</a>,</li>
+<li><a href="<?php echo auri('wiki') ?>">onze wiki</a>,</li>
 <li><a href="<?php echo auri('forum') ?>">ons forum</a> en</li>
 <li>de <a href="<?php echo auri('zusjes') ?>">zusjes</a>.</li>
 </ul>
