@@ -8,6 +8,12 @@ $page = array('bg' => 'rest',
                           'unsafe-email' => false,
 			  'bare' => false);
 
+function euri($what) {
+        global $cfg;
+        assert(isset($cfg['links'][$what]));
+        return $cfg['links'][$what];
+}
+
 function auri($action, $qs='', $an='') {
 	global $cfg;
         $r = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://')
@@ -122,12 +128,12 @@ function emit_menu() { global $page; ?>
 					<li><a href="<?php echo auri('fotos') ?>">Fotogalerij</a></li>
 					<li><a href="<?php echo auri('fotos/index.php?album=pdn') ?>">Pluk de Nacht</a></li>
 				</ul></li>
-                                <li><a href="<?php echo auri('smoelen') ?>">Leden</a>
+                                <li><a href="<?php echo euri('smoelen') ?>">Leden</a>
 				<ul>
-					<li><a href="<?php echo auri('smoelen') ?>">Smoelenboek</a></li>
-					<li><a href="<?php echo auri('wiki') ?>">Wiki</a></li>
-					<li><a href="<?php echo auri('forum') ?>">Forum</a></li>
-					<li><a href="<?php echo auri('groups/leden') ?>">Stukken</a></li>
+					<li><a href="<?php echo euri('smoelen') ?>">Smoelenboek</a></li>
+					<li><a href="<?php echo euri('wiki') ?>">Wiki</a></li>
+					<li><a href="<?php echo euri('forum') ?>">Forum</a></li>
+					<li><a href="<?php echo euri('stukken') ?>">Stukken</a></li>
 				</ul></li>
 				<li><a href="<?php echo auri('merchandise') ?>"
 						>Merchandise</a></li>
