@@ -69,7 +69,7 @@ function default_header() {
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
         "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" prefix="og: http://ogp.me/ns#">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<?php emit_stylesheets() ?>
@@ -87,6 +87,12 @@ function default_header() {
 			if(!empty($page['title'])) { ?>- <?php echo $page['title']; } 
 		?></title>
 		<meta name="google-site-verification" content="l0qIUe2C4DlhszFe3hyN3f26uMMLNL9-VPqErQBa-fY" />
+		<meta property="og:image" content="<?php echo curi("img/logo-og.png"); ?>"/>
+		<meta property="og:locale" content="nl_NL"/>
+		<meta property="og:site_name" content="ASV Karpe Noktem"/>
+<?php if ($page['title']) { ?>
+		<meta property="og:title" content="<?= $page['title'] ?>"/>
+<?php } ?>
 	</head>
 	<body>
 		<div id="wrapper">
