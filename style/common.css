@@ -68,3 +68,75 @@ a:hover {
 	font-style: italic;
 	color: #999;
 }
+
+#buttonwrapper {
+	display: none;
+}
+
+@media only screen and (max-width: 35em) {
+
+body {
+	padding-left: 0px;
+	margin: 0;
+}
+
+#wrapper {
+	width: auto;
+	margin: 0;
+}
+
+#logo {
+	background-size: 100%;
+}
+
+#body {
+	float: none;
+	width: auto;
+	height: auto;
+	overflow: show;
+	padding: 0;
+}
+
+#buttonwrapper {
+	text-align: center;
+	padding: 0 0 5px 0;
+	display: block;
+}
+#menubutton {
+	cursor: pointer;
+	font-size: 24px;
+	background: #222;
+	padding: 5px;
+}
+
+#menu {
+	margin: 0;
+	padding: 0;
+	clear: left;
+	overflow: hidden;
+	/* prefix still needed, XXX remove once Webkit removes prefixes
+	 * https://bugs.webkit.org/show_bug.cgi?id=93136 */
+	-webkit-transition: 0.2s height ease;
+	        transition: 0.2s height ease;
+	background: #222;
+}
+
+#menu ul {
+	margin: 0;
+}
+
+#menu li {
+	font-size: 24px;
+}
+
+#main {
+	background-position: center;
+}
+
+#agenda {
+	padding: 0;
+	float: none;
+	width: auto;
+	background: rgba(0, 0, 0, 0.5);
+}
+}

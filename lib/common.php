@@ -87,12 +87,18 @@ function default_header() {
 			if(!empty($page['title'])) { ?>- <?php echo $page['title']; } 
 		?></title>
 		<meta name="google-site-verification" content="l0qIUe2C4DlhszFe3hyN3f26uMMLNL9-VPqErQBa-fY" />
+		<meta name="viewport" content="width=device-width"/>
 	</head>
 	<body>
 		<div id="wrapper">
 		<?php if(!$page['bare']) { ?>
 		<div id="logo"></div>
 		<?php } ?>
+		<div id="buttonwrapper">
+			<span id="menubutton" onclick="toggleMenu();">
+				Menu<span id="menubutton-arrow">▼</span>
+			</span>
+		</div>
 		
 		<div id="main">	
 			<div id="body">
