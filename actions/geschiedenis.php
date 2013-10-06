@@ -44,7 +44,7 @@ het optreden van een behaarde Ariel de zeemeerm(i/a)n.</p>
 <p>Ook in de periode februari tot en met mei staat het programma bom vol van de
 meest uiteenlopende activiteiten. Karpe Noktem plukt boompjes in de Hatertse
 Vennen, staat oog in oog met Het Kwaad (Tropenmuseum), kijkt films, en stelt
-zich bloot en een schandalige hoeveelheid alcohol (bierspellenavond).</p>
+zich bloot aan een schandalige hoeveelheid alcohol (bierspellenavond).</p>
 <p>Maar de onbetwiste hoogtepunten van het tweede halve jaar Karpe Noktem zijn
 toch echt. Het Broeder en Zusterfeest in De Onderbroek (met bezoek van zusjes
 Catena, Saam, Wolbodo), Het Hippiefeest in Gonzo, en het Gemaskerde eindfeest
