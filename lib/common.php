@@ -8,12 +8,14 @@ $page = array('bg' => 'rest',
                           'unsafe-email' => false,
 			  'bare' => false);
 
+/* external URIs */
 function euri($what) {
         global $cfg;
         assert(isset($cfg['links'][$what]));
         return $cfg['links'][$what];
 }
 
+/* action URIs */
 function auri($action, $qs='', $an='') {
 	global $cfg;
         $r = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://')
@@ -23,6 +25,7 @@ function auri($action, $qs='', $an='') {
 	return $r;
 }
 
+/* content URIs */
 function curi($content) {
 	global $cfg;
         return (isset($_SERVER['HTTPS']) ? 'https://' : 'http://')
@@ -131,8 +134,8 @@ function emit_menu() { global $page; ?>
 				</ul></li>
 				<li><a href="<?php echo auri('media') ?>">Fotos/videos</a>
 				<ul>
-					<li><a href="https://karpenoktem.nl/fotos/">Fotogalerij</a></li>
-					<li><a href="https://karpenoktem.nl/fotos/index.php?album=pdn">Pluk de Nacht</a></li>
+					<li><a href="<?php echo euri('fotos') ?>">Fotogalerij</a></li>
+					<li><a href="<?php echo euri('fotos-pdn') ?>">Pluk de Nacht</a></li>
 				</ul></li>
                                 <li><a href="<?php echo euri('smoelen') ?>">Leden</a>
 				<ul>

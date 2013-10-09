@@ -1,10 +1,10 @@
 <?php set_title('Media');
       default_header(); ?>
 <ul>
-	<li>Foto's van <a href="http://karpenoktem.nl/fotos/"
+	<li>Foto's van <a href="<?php echo euri('fotos') ?>"
                 >Karpe Noktem</a></li>
 	<li>Foto's van <a
-	href="http://karpenoktem.nl/fotos/index.php?album=pdn"
+	href="<?php echo euri('fotos-pdn') ?>"
                 >Pluk de Nacht weekend</a></li>
 	<li>2009: Een reportage van <a
 	href="http://www.youtube.com/watch?v=NLOT1TkZTf4"
