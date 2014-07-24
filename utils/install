@@ -32,7 +32,7 @@ elif len(sys.argv) != 2:
 else:
 	f = open(sys.argv[1], 'w')
 
-f.write("<?\n"+
+f.write("<?php\n"+
 	"if(!isset($cfg['release'])) $cfg['release'] = array();\n"+
 	"$cfg['release']['hash'] = '%s';\n" % h +
 	"$cfg['release']['date'] = '%s';\n" % ct +
